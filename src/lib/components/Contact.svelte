@@ -14,7 +14,7 @@
 			class="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"
 		>
 			{#if sectionVisible['contact']}
-				<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+				<div class="">
 					<div in:fly={{ x: -30, duration: 1200, delay: 300 }}>
 						<h3 class="mb-4 text-xl font-semibold">Get in Touch</h3>
 						<p class="mb-6 text-gray-700">
@@ -69,7 +69,7 @@
 										d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
 									/>
 								</svg>
-								<div>
+								<div class="flex">
 									<p class="font-medium">Location</p>
 									<p class="text-gray-600">University of California, Berkeley</p>
 								</div>
@@ -77,7 +77,7 @@
 						</div>
 					</div>
 
-					<div in:fly={{ x: 30, duration: 1200, delay: 600 }}>
+					<!-- <div in:fly={{ x: 30, duration: 1200, delay: 600 }}>
 						<h3 class="mb-4 text-xl font-semibold">Send a Message</h3>
 						<form class="space-y-4">
 							<div class="group">
@@ -135,7 +135,7 @@
 								</button>
 							</div>
 						</form>
-					</div>
+					</div> -->
 				</div>
 			{/if}
 		</div>

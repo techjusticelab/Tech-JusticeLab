@@ -38,24 +38,25 @@
 	];
 </script>
 
-<section id="partners" class="bg-white py-16">
+<section id="partners" class="bg-white py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<h2 class="garamond mb-4 text-center text-3xl font-bold text-[var(--dark-blue)]">Partners</h2>
-		<p class="mb-10 text-center text-lg">
+		<h2 class="garamond mb-4 text-center text-2xl font-bold text-[var(--dark-blue)] sm:text-3xl">
+			Partners
+		</h2>
+		<p class="mb-6 text-center text-base sm:mb-10 sm:text-lg">
 			The Berkeley Technology and Justice Lab team is thankful for all of our amazing partners
 		</p>
 
 		{#if sectionVisible['partners']}
-			<!-- Responsive grid that adapts based on number of partners -->
-			<div class="mx-auto max-w-4xl">
-				<!-- Adaptive grid layout -->
+			<div class="mx-auto">
+				<!-- Single row flex layout on desktop, grid on mobile/tablet -->
 				<div
-					class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-{Math.min(partners.length, 4)}"
+					class="flex flex-col items-center justify-center sm:flex-row sm:flex-wrap lg:flex-nowrap lg:justify-evenly"
 				>
 					{#each partners as partner (partner.id)}
 						<div
 							in:scale={{ duration: 800, delay: partner.delay }}
-							class="flex items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-lg"
+							class="mt-4 mb-6 flex h-4/5 w-4/5 items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-lg sm:mx-2 sm:mb-0 sm:w-5/12 md:mx-4 md:h-[25vh] md:w-[25vw]"
 						>
 							<div class="text-center">
 								<div
@@ -75,28 +76,19 @@
 						</div>
 					{/each}
 				</div>
+
+				<!-- Add Partner Button (Optional) -->
+				{#if partners.length < 6}
+					<div class="mt-8 text-center">
+						<a
+							href="#get-involved"
+							class="inline-block rounded-md border border-[var(--cerulean-blue)] px-5 py-2 text-sm font-medium text-[var(--cerulean-blue)] transition-colors duration-300 hover:bg-[var(--cerulean-blue)]/5"
+						>
+							Become a Partner
+						</a>
+					</div>
+				{/if}
 			</div>
 		{/if}
 	</div>
 </section>
-
-<style>
-	/* Dynamic grid columns based on partner count */
-	@media (min-width: 1024px) {
-		.grid-cols-1 {
-			grid-template-columns: repeat(1, minmax(0, 1fr));
-		}
-
-		.grid-cols-2 {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-
-		.grid-cols-3 {
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-		}
-
-		.grid-cols-4 {
-			grid-template-columns: repeat(4, minmax(0, 1fr));
-		}
-	}
-</style>

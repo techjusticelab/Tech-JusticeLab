@@ -62,9 +62,9 @@
 	<Updates {sectionVisible} />
 	<WhoWeAre {sectionVisible} />
 	<OurWork {sectionVisible} />
-	<Resources {sectionVisible} />
-	<GetInvolved {sectionVisible} />
 	<Partners {sectionVisible} />
+	<GetInvolved {sectionVisible} />
+	<Resources {sectionVisible} />
 	<Contact {sectionVisible} />
 </main>
 

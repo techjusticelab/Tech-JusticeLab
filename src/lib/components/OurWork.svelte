@@ -35,7 +35,7 @@
 						people, and the general public to access digital tools for each step in the RJA filing
 						process.
 					</p>
-					<div class="flex items-center pl-4">
+					<!-- <div class="flex items-center pl-4">
 						<button
 							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
 						>
@@ -44,7 +44,7 @@
 								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
 							></span>
 						</button>
-					</div>
+					</div> -->
 				</div>
 
 				<div
@@ -58,11 +58,16 @@
 
 					<h3 class="mb-4 pl-4 text-2xl font-semibold text-[var(--cerulean-blue)]">CPDA Tool</h3>
 					<p class="mb-6 pl-4 text-gray-700">
-						Our CPDA Tool is currently in development to support California Public Defenders
-						Association members with digital resources that streamline case management and evidence
-						analysis. More details coming soon.
+						The California Public Defender's Association Motion Bank tool organizes decades of
+						filings, motions briefs and other resources to aid in litigation. Previously these
+						resources were unsearchable, our tool categorizes these documents and makes them
+						searchable. By implementing semantic search and advanced search tools, attorneys can
+						easily identify relevant filings and search them for topical information. This aims to
+						reduce the caseload burden that public defenders currently shoulder, therefore making
+						justice more accessible to those facing incarceration. The tool is in progress and will
+						be available for CPDA members shortly.
 					</p>
-					<div class="flex items-center pl-4">
+					<!-- <div class="flex items-center pl-4">
 						<button
 							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
 						>
@@ -71,7 +76,7 @@
 								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
 							></span>
 						</button>
-					</div>
+					</div> -->
 				</div>
 			{/if}
 		</div>

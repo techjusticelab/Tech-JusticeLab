@@ -21,7 +21,7 @@
 		{
 			id: 2,
 			name: 'Aarya Mukherjee',
-			title: 'Strategic Director',
+			title: 'Managing Director',
 			image: aarya,
 			delay: 700,
 			linkedin: 'https://www.linkedin.com/in/aarya-mukherjee-293089251/',
@@ -30,7 +30,7 @@
 		{
 			id: 3,
 			name: 'Stephen Okita',
-			title: 'Lead Developer',
+			title: 'Head of Software Development',
 			image: stephenok,
 			delay: 900,
 			linkedin: 'https://www.linkedin.com/in/stephen-okita/',
@@ -39,7 +39,7 @@
 		{
 			id: 4,
 			name: 'Alex Forman',
-			title: 'Lead Developer',
+			title: 'Head of Engineering',
 			image: alexfor,
 			delay: 1100,
 			linkedin: 'https://www.linkedin.com/in/alex-k-forman/',
@@ -49,7 +49,7 @@
 	];
 
 	// Function to calculate optimal grid columns based on team size
-	function getGridCols(teamSize) {
+	function getGridCols(teamSize: number) {
 		if (teamSize <= 3) return teamSize;
 		return teamSize <= 4 ? 4 : 3; // Use 4 columns for 4 members, 3 columns for 5+ members
 	}
