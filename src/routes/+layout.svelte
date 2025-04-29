@@ -5,7 +5,7 @@
 </script>
 
 <!-- Navigation -->
-<nav class="bg-apple-white sticky top-0 z-50 shadow-md">
+<nav class="sticky top-0 z-50 bg-[var(--apple-white)] shadow-md">
 	<div class="mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 justify-between">
 			<div class="flex">
@@ -32,7 +32,7 @@
 				<div class="flex items-center md:hidden">
 					<button
 						type="button"
-						class="text-cerulean-blue inline-flex items-center justify-center rounded-md p-2"
+						class="inline-flex items-center justify-center rounded-md p-2 text-[var(--cerulean-blue)]"
 					>
 						<svg
 							class="h-6 w-6"

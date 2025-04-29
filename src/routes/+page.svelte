@@ -1,16 +1,13 @@
 <script>
-	// // Simple smooth scrolling for anchor links
-	// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-	//   anchor.addEventListener('click', function (e) {
-	//     e.preventDefault();
+	import aarya from '$lib/assets/team/aaryamuk1.jpg';
+	import alexfor from '$lib/assets/team/alexfor.jpg';
+	import stephenok from '$lib/assets/team/stepheno.jpg';
+	import mayahow from '$lib/assets/team/mayahow.jpg';
 
-	//     document.querySelector(this.getAttribute('href')).scrollIntoView({
-	//       behavior: 'smooth'
-	//     });
-	//   });
-	// });
-
-	// Mobile menu toggle functionality could be added here
+	import bcljc from '$lib/assets/partners/bcl&jc.png';
+	import cpe from '$lib/assets/partners/cpe.png';
+	import sqsw from '$lib/assets/partners/sqsw.png';
+	import laccpd from '$lib/assets/partners/lapd.png';
 </script>
 
 <!-- Hero Section -->
@@ -58,6 +55,16 @@
 				>
 			</div>
 			<div class="rounded-lg bg-white p-6 shadow-md">
+				<h3 class="mb-2 text-xl font-semibold">CPDA Motion Bank</h3>
+				<p class="mb-4 text-gray-600">
+					Our Racial Justice Act tool is being piloted with the Los Angeles County Public Defender's
+					Office.
+				</p>
+				<a href="#our-work" class="font-medium text-[var(--cerulean-blue)] hover:underline"
+					>Learn more →</a
+				>
+			</div>
+			<div class="rounded-lg bg-white p-6 shadow-md">
 				<h3 class="mb-2 text-xl font-semibold">New Partnerships</h3>
 				<p class="mb-4 text-gray-600">
 					We're expanding our network of partners to create more impactful tools for justice.
@@ -95,24 +102,10 @@
 
 		<h3 class="garamond mb-8 text-center text-2xl font-bold text-[var(--dark-blue)]">Our Team</h3>
 
-		<div class="mb-12">
-			<div class="aspect-w-16 aspect-h-9 mb-8">
-				<img
-					src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400' fill='%23F4F2EC'%3E%3Crect width='800' height='400' fill='%232A52BE'/%3E%3Ctext x='400' y='200' font-family='Arial' font-size='20' fill='white' text-anchor='middle'%3ETeam Photo%3C/text%3E%3C/svg%3E"
-					alt="Berkeley Technology and Justice Lab Team"
-					class="h-full w-full rounded-lg object-cover shadow-lg"
-				/>
-			</div>
-		</div>
-
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
 			<div class="team-card rounded-lg bg-[var(--apple-white)] p-6 text-center shadow-md">
 				<div class="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full">
-					<img
-						src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23F4F2EC'%3E%3Ccircle cx='50' cy='50' r='50' fill='%232A52BE'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3EMaya%3C/text%3E%3C/svg%3E"
-						alt="Maya Howard"
-						class="h-full w-full object-cover"
-					/>
+					<img src={mayahow} alt="Maya Howard" class="h-full w-full object-cover" />
 				</div>
 				<h3 class="mb-1 text-xl font-semibold">Maya Howard</h3>
 				<p class="text-gray-600">Director of Operations</p>
@@ -120,11 +113,7 @@
 
 			<div class="team-card rounded-lg bg-[var(--apple-white)] p-6 text-center shadow-md">
 				<div class="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full">
-					<img
-						src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23F4F2EC'%3E%3Ccircle cx='50' cy='50' r='50' fill='%232A52BE'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3EAarya%3C/text%3E%3C/svg%3E"
-						alt="Aarya Mukherjee"
-						class="h-full w-full object-cover"
-					/>
+					<img src={aarya} alt="Aarya Mukherjee" class="h-full w-full object-cover" />
 				</div>
 				<h3 class="mb-1 text-xl font-semibold">Aarya Mukherjee</h3>
 				<p class="text-gray-600">Strategic Director</p>
@@ -132,11 +121,7 @@
 
 			<div class="team-card rounded-lg bg-[var(--apple-white)] p-6 text-center shadow-md">
 				<div class="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full">
-					<img
-						src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23F4F2EC'%3E%3Ccircle cx='50' cy='50' r='50' fill='%232A52BE'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3EStephen%3C/text%3E%3C/svg%3E"
-						alt="Stephen Okita"
-						class="h-full w-full object-cover"
-					/>
+					<img src={stephenok} alt="Stephen Okita" class="h-full w-full object-cover" />
 				</div>
 				<h3 class="mb-1 text-xl font-semibold">Stephen Okita</h3>
 				<p class="text-gray-600">Lead Developer</p>
@@ -144,11 +129,7 @@
 
 			<div class="team-card rounded-lg bg-[var(--apple-white)] p-6 text-center shadow-md">
 				<div class="mx-auto mb-4 h-32 w-32 overflow-hidden rounded-full">
-					<img
-						src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='%23F4F2EC'%3E%3Ccircle cx='50' cy='50' r='50' fill='%232A52BE'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='12' fill='white' text-anchor='middle'%3EAlex%3C/text%3E%3C/svg%3E"
-						alt="Alex Forman"
-						class="h-full w-full object-cover"
-					/>
+					<img src={alexfor} alt="Alex Forman" class="h-full w-full object-cover" />
 				</div>
 				<h3 class="mb-1 text-xl font-semibold">Alex Forman</h3>
 				<p class="text-gray-600">Lead Developer</p>
@@ -677,10 +658,7 @@
 			<p class="text-sm text-gray-300">
 				&copy; 2025 Berkeley Technology and Justice Lab. All rights reserved.
 			</p>
-			<div class="mt-4 md:mt-0">
-				<a href="#" class="mr-4 text-sm text-gray-300 hover:text-white">Privacy Policy</a>
-				<a href="#" class="text-sm text-gray-300 hover:text-white">Terms of Service</a>
-			</div>
+			<div class="mt-4 md:mt-0"></div>
 		</div>
 	</div>
 </footer>
