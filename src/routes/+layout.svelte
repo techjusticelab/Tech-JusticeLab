@@ -69,7 +69,7 @@
 					Creating digital tools for defense attorneys, incarcerated people and their loved ones,
 					and criminal justice organizers.
 				</p>
-				<div class="flex space-x-4">
+				<!-- <div class="flex space-x-4">
 					<a href="#" class="text-white hover:text-gray-300">
 						<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 							<path
@@ -104,7 +104,7 @@
 							/>
 						</svg>
 					</a>
-				</div>
+				</div> -->
 			</div>
 
 			<div>
