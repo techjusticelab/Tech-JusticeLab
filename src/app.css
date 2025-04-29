@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+:root {
+    --apple-white: #F4F2EC;
+    --cerulean-blue: #2A52BE;
+    --roman-silver: #838996;
+    --dark-blue: #00075E;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: var(--apple-white);
+    color: #333;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.logo-color {
+    color: var(--dark-blue);
+}
+
+.btn-primary {
+    background-color: var(--cerulean-blue);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-blue);
+    transform: translateY(-2px);
+}
+
+.outline-color {
+    border-color: var(--roman-silver);
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: var(--cerulean-blue);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.team-card {
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: var(--dark-blue);
+}
