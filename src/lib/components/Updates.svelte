@@ -24,8 +24,8 @@
 				>
 					<h3 class="mb-2 text-xl font-semibold">RJA Tool Development</h3>
 					<p class="mb-4 text-gray-600">
-						Our Racial Justice Act tool is being piloted with the Los Angeles County Public
-						Defender's Office.
+						Our Racial Justice Act tool aims to help public defenders form RJA claims and is set to
+						be piloted soon.
 					</p>
 					<a
 						href="#our-work"

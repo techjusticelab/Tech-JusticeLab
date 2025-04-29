@@ -28,8 +28,7 @@
 						racialized language per claims A1 and A2 of the California Racial Justice Act. In its
 						current stage the tool is primarily for use by public defenders and is designed using
 						training data from each county to be able to identify the racial nuances of the given
-						geographic area. The tool is set to be piloted with the Los Angeles County Public
-						Defender's Office, after which it can be expanded to PD offices throughout the state.
+						geographic area. The tool will be piloted in Public Defender's Office across California.
 						Long term they hope to collaborate with other organizations creating RJA tools to build
 						an end-to-end tool for use by defense attorneys, family/loved ones of incarcerated
 						people, and the general public to access digital tools for each step in the RJA filing
@@ -59,13 +58,11 @@
 					<h3 class="mb-4 pl-4 text-2xl font-semibold text-[var(--cerulean-blue)]">CPDA Tool</h3>
 					<p class="mb-6 pl-4 text-gray-700">
 						The California Public Defender's Association Motion Bank tool organizes decades of
-						filings, motions briefs and other resources to aid in litigation. Previously these
-						resources were unsearchable, our tool categorizes these documents and makes them
-						searchable. By implementing semantic search and advanced search tools, attorneys can
-						easily identify relevant filings and search them for topical information. This aims to
-						reduce the caseload burden that public defenders currently shoulder, therefore making
-						justice more accessible to those facing incarceration. The tool is in progress and will
-						be available for CPDA members shortly.
+						filings, motions briefs and other resources to aid in litigation. By implementing
+						semantic search and advanced search tools, attorneys can easily find relevant documents
+						and topical information. The tool lift's the burden from the public defenders shoulder,
+						making justice more accessible to underprivileged facing incarceration. The tool is in
+						will be available for CPDA members shortly.
 					</p>
 					<!-- <div class="flex items-center pl-4">
 						<button
