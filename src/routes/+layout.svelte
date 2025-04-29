@@ -11,7 +11,7 @@
 			<div class="flex">
 				<div class="flex flex-shrink-0 items-center">
 					<a href="#home">
-						<h1 class="garamond logo-color text-2xl font-bold">
+						<h1 class="garamond logo-color text-sm font-bold md:text-xl lg:text-2xl">
 							Berkeley Technology and Justice Lab
 						</h1></a
 					>
@@ -28,7 +28,9 @@
 				<a href="#contact" class="nav-link px-2 py-2 text-sm font-medium">Contact</a>
 			</div>
 			<div class="flex items-center">
-				<button class="btn-primary rounded-md px-4 py-2 text-sm font-medium">Donate</button>
+				<button class="btn-primary hidden rounded-md px-4 py-2 text-sm font-medium lg:flex"
+					>Donate</button
+				>
 				<div class="flex items-center md:hidden">
 					<button
 						type="button"

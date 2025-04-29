@@ -4,10 +4,33 @@
 	import stephenok from '$lib/assets/team/stepheno.jpg';
 	import mayahow from '$lib/assets/team/mayahow.jpg';
 
-	import bcljc from '$lib/assets/partners/bcl&jc.png';
+	import bcljc from '$lib/assets/partners/bcl&jc.jpg';
 	import cpe from '$lib/assets/partners/cpe.png';
-	import sqsw from '$lib/assets/partners/sqsw.png';
-	import laccpd from '$lib/assets/partners/lapd.png';
+	import sqsw from '$lib/assets/partners/sqsw.jpg';
+	import laccpd from '$lib/assets/partners/lapd.jpg';
+
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		// Implement smooth scrolling for anchor links
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				const targetId = this.getAttribute('href');
+				const targetElement = document.querySelector(targetId);
+
+				if (targetElement) {
+					targetElement.scrollIntoView({
+						behavior: 'smooth'
+					});
+
+					// Update URL without page reload
+					history.pushState(null, null, targetId);
+				}
+			});
+		});
+	});
 </script>
 
 <!-- Hero Section -->
@@ -414,10 +437,8 @@
 				class="flex items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm"
 			>
 				<div class="text-center">
-					<div
-						class="mx-auto mb-2 flex h-32 w-32 items-center justify-center rounded-full bg-gray-100"
-					>
-						<span class="text-sm text-gray-500">Partner Logo</span>
+					<div class="mx-auto mb-2 h-32 w-32 overflow-hidden rounded-full">
+						<img src={sqsw} alt="San Quentin Skunkworks" class="h-full w-full object-cover" />
 					</div>
 					<p class="font-medium">San Quentin Skunkworks</p>
 				</div>
@@ -427,10 +448,12 @@
 				class="flex items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm"
 			>
 				<div class="text-center">
-					<div
-						class="mx-auto mb-2 flex h-32 w-32 items-center justify-center rounded-full bg-gray-100"
-					>
-						<span class="text-sm text-gray-500">Partner Logo</span>
+					<div class="mx-auto mb-2 h-32 w-32 overflow-hidden rounded-full">
+						<img
+							src={bcljc}
+							alt="Berkeley Criminal Law and Justice Center"
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<p class="font-medium">Berkeley Criminal Law and Justice Center</p>
 				</div>
@@ -440,10 +463,12 @@
 				class="flex items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm"
 			>
 				<div class="text-center">
-					<div
-						class="mx-auto mb-2 flex h-32 w-32 items-center justify-center rounded-full bg-gray-100"
-					>
-						<span class="text-sm text-gray-500">Partner Logo</span>
+					<div class="mx-auto mb-2 h-32 w-32 overflow-hidden rounded-full">
+						<img
+							src={laccpd}
+							alt="Los Angeles County Public Defender's Office"
+							class="h-full w-full object-cover"
+						/>
 					</div>
 					<p class="font-medium">Los Angeles County Public Defender's Office</p>
 				</div>
@@ -453,10 +478,8 @@
 				class="flex items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm"
 			>
 				<div class="text-center">
-					<div
-						class="mx-auto mb-2 flex h-32 w-32 items-center justify-center rounded-full bg-gray-100"
-					>
-						<span class="text-sm text-gray-500">Partner Logo</span>
+					<div class="mx-auto mb-2 h-32 w-32 overflow-hidden rounded-full">
+						<img src={cpe} alt="Center for Policing Equity" class="h-full w-full object-cover" />
 					</div>
 					<p class="font-medium">Center for Policing Equity</p>
 				</div>
