@@ -13,13 +13,22 @@
 			id: 1,
 			name: 'San Quentin Skunkworks',
 			image: sqsw,
+			link: 'https://sanquentinskunkworks.org/',
 			delay: 300
 		},
 		{
 			id: 2,
 			name: 'Berkeley Criminal Law and Justice Center',
 			image: bcljc,
+			link: 'https://www.law.berkeley.edu/research/criminal-law-and-justice-center/',
 			delay: 400
+		},
+		{
+			id: 3,
+			name: 'California Public Defender Association',
+			image: cpe,
+			link: 'https://www.cpda.org/',
+			delay: 500
 		}
 		// {
 		// 	id: 3,
@@ -58,7 +67,7 @@
 							in:scale={{ duration: 800, delay: partner.delay }}
 							class="mt-4 mb-6 flex h-4/5 w-4/5 items-center justify-center rounded-lg bg-[var(--apple-white)] p-4 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-lg sm:mx-2 sm:mb-0 sm:w-5/12 md:mx-4 md:h-[25vh] md:w-[25vw]"
 						>
-							<div class="text-center">
+							<a href={partner.link} class="text-center">
 								<div
 									class="relative mx-auto mb-2 h-24 w-24 overflow-hidden rounded-full sm:h-28 sm:w-28 md:h-32 md:w-32"
 								>
@@ -72,7 +81,7 @@
 									></div>
 								</div>
 								<p class="text-sm font-medium sm:text-base">{partner.name}</p>
-							</div>
+							</a>
 						</div>
 					{/each}
 				</div>

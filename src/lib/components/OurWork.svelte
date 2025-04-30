@@ -23,16 +23,15 @@
 						Racial Justice Act Tool
 					</h3>
 					<p class="mb-6 pl-4 text-gray-700">
-						The Berkeley Technology and Justice Lab, in partnership with the Berkeley Criminal Law
-						and Justice Center, has created a textual analysis tool that identifies instances of
-						racialized language per claims A1 and A2 of the California Racial Justice Act. In its
-						current stage the tool is primarily for use by public defenders and is designed using
-						training data from each county to be able to identify the racial nuances of the given
-						geographic area. The tool will be piloted in Public Defender's Office across California.
-						Long term they hope to collaborate with other organizations creating RJA tools to build
-						an end-to-end tool for use by defense attorneys, family/loved ones of incarcerated
-						people, and the general public to access digital tools for each step in the RJA filing
-						process.
+						The RJA tool is a textual analysis tool that identifies instances of racialized language
+						per claims A1 and A2 of the California Racial Justice Act. In its current stage the tool
+						is primarily for use by public defenders and is designed using training data from each
+						county to be able to identify the racial nuances of the given geographic area. The tool
+						is set to be piloted with the Los Angeles County Public Defender's Office, after which
+						it can be expanded to PD offices throughout the state. Long term we plan to collaborate
+						with other organizations creating RJA tools to build an end-to-end tool for use by
+						defense attorneys, family/loved ones of incarcerated people, and the general public to
+						access digital tools for each step in the RJA filing process.
 					</p>
 					<!-- <div class="flex items-center pl-4">
 						<button
@@ -60,9 +59,9 @@
 						The California Public Defender's Association Motion Bank tool organizes decades of
 						filings, motions briefs and other resources to aid in litigation. By implementing
 						semantic search and advanced search tools, attorneys can easily find relevant documents
-						and topical information. The tool lift's the burden from the public defenders shoulder,
-						making justice more accessible to underprivileged facing incarceration. The tool is in
-						will be available for CPDA members shortly.
+						and topical information. The tool lessens the burden of research for the public
+						defender, making justice more accessible to those facing incarceration. The tool will be
+						available for CPDA members shortly.
 					</p>
 					<!-- <div class="flex items-center pl-4">
 						<button
