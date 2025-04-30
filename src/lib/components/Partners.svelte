@@ -20,13 +20,13 @@
 			name: 'Berkeley Criminal Law and Justice Center',
 			image: bcljc,
 			delay: 400
-		},
-		{
-			id: 3,
-			name: "Los Angeles County Public Defender's Office",
-			image: laccpd,
-			delay: 500
 		}
+		// {
+		// 	id: 3,
+		// 	name: "Los Angeles County Public Defender's Office",
+		// 	image: laccpd,
+		// 	delay: 500
+		// }
 		// Uncomment to add back in
 		// {
 		//	id: 4,

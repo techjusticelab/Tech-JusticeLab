@@ -69,7 +69,7 @@
 										d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
 									/>
 								</svg>
-								<div class="flex">
+								<div class="">
 									<p class="font-medium">Location</p>
 									<p class="text-gray-600">University of California, Berkeley</p>
 								</div>
