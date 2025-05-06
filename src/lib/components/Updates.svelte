@@ -43,9 +43,9 @@
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
-					<h3 class="mb-2 text-xl font-semibold">New Partnerships</h3>
+					<h3 class="mb-2 text-xl font-semibold">CPDA Motion-Bank</h3>
 					<p class="mb-4 text-gray-600">
-						We're expanding our network of partners to create more impactful tools for justice.
+						Beta Testing out motion bank with the California Public Defenders association. 
 					</p>
 					<a
 						href="#partners"

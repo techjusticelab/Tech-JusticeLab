@@ -68,10 +68,10 @@
 			<div class="mx-auto mb-10 max-w-3xl sm:mb-16">
 				<p in:fade={{ duration: 1200 }} class="text-center text-base sm:text-lg">
 					<strong>Mission Statement:</strong> The Berkeley Technology and Justice Lab creates and builds
-					digital tools for use by defense attorneys, incarcerated people and their loved ones, and criminal
-					justice organizers. Our goal is to create accessible tools that can lead to material change
-					in conditions for incarcerated people, advance racial equity, decarcerate, and promote transparency
-					in the criminal legal system.
+					digital tools "in partnership with defence attorneys, incarcerated people and their loved ones,
+					and criminal justice organizers. Our goal is to create accessible tools that can lead to material
+					change in conditions for incarcerated people, advance racial equity, decarcerate, and promote
+					transparency in the criminal legal system.
 				</p>
 			</div>
 
