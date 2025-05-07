@@ -43,9 +43,9 @@
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
-					<h3 class="mb-2 text-xl font-semibold">CPDA Motion-Bank</h3>
+					<h3 class="mb-2 text-xl font-semibold">CPDA MotionBank</h3>
 					<p class="mb-4 text-gray-600">
-						Beta Testing out motion bank with the California Public Defenders association. 
+						Beta Testing a rework of the California Public Defenders Association's Motion Bank, using novel data science to make legal resources easily searchable. 
 					</p>
 					<a
 						href="#partners"
@@ -67,7 +67,7 @@
 					<a
 						href="#get-involved"
 						class="group inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
-						>Learn more >
+						>Learn more 
 					</a>
 				</div>
 			{/if}

@@ -1,140 +1,101 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
 
-	export let sectionVisible: { [key: string]: boolean } = {};
+	export let sectionVisible: { [key: string]: boolean } = { resources: true }; // Default to visible
 
-	// Main resource cards - easily add or remove resource sections
-	const resourceSections = [
+	// Combined resource cards with uniform structure and descriptions
+	const resources = [
 		{
-			id: 'rja',
-			title: 'Racial Justice Act Resources',
-			content: [
-				{
-					text: 'For more information about the Racial Justice Act and to find resources please visit RJAaction.org',
-					buttonText: 'Visit RJA Action',
-					buttonLink: 'https://rjaction.org'
-				},
-				{
-					text: "Visit the Ella Baker Center's website to access the RJA 4 All Guide - provided in English and Spanish.",
-					buttonText: 'Ella Baker Center RJA Guide',
-					buttonLink: 'https://ellabakercenter.org'
-				}
-			],
+			title: "RJA Action",
+			description: "For more information about the Racial Justice Act and to find resources please visit RJAaction.org",
+			buttonText: 'Visit RJA Action',
+			buttonLink: 'https://rjaction.org',
 			delay: 300
 		},
 		{
-			id: 'additional',
-			title: 'Additional Resources',
-			isList: true,
-			delay: 600
-		}
-	];
-
-	// Additional resource links for the second card
-	const additionalLinks = [
-		{
-			id: 1,
-			text: 'California Public Defender Association Resources',
-			link: 'https://www.cpda.org/'
+			title: "Ella Baker Center",
+			description: "Visit the Ella Baker Center's website to access the RJA 4 All Guide - provided in English and Spanish.",
+			buttonText: 'Access RJA Guide',
+			buttonLink: 'https://ellabakercenter.org',
+			delay: 350
 		},
 		{
-			id: 2,
-			text: 'Berkeley Criminal Law and Justice Center',
-			link: 'https://www.law.berkeley.edu/research/criminal-law-and-justice-center/'
+			title: "California Public Defender Association",
+			description: "Resources, training, and advocacy for public defenders working on racial justice cases throughout California.",
+			buttonText: 'View Resources',
+			buttonLink: 'https://www.cpda.org/',
+			delay: 400
 		},
 		{
-			id: 3,
-			text: 'Center for Policing Equity',
-			link: 'https://policingequity.org/'
+			title: "Berkeley Criminal Law and Justice Center",
+			description: "Academic resources and research on racial disparities in the criminal justice system.",
+			buttonText: 'Learn More',
+			buttonLink: 'https://www.law.berkeley.edu/research/criminal-law-and-justice-center/',
+			delay: 450
+		},
+		{
+			title: "Center for Policing Equity",
+			description: "Research and resources addressing racial bias in law enforcement practices and policies.",
+			buttonText: 'Explore Center',
+			buttonLink: 'https://policingequity.org/',
+			delay: 500
 		}
-		// Easily add more resources by adding to this array
 	];
-
-	// Reusable arrow icon component
-	const ArrowIcon = `<svg
-		class="mr-2 h-5 w-5 sm:h-6 sm:w-6 text-[var(--cerulean-blue)]"
-		xmlns="http://www.w3.org/2000/svg"
-		fill="none"
-		viewBox="0 0 24 24"
-		stroke="currentColor"
-	>
-		<path
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			stroke-width="2"
-			d="M9 5l7 7-7 7"
-		/>
-	</svg>`;
 </script>
 
 <section id="resources" class="bg-white py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2
-			class="garamond mb-8 text-center text-2xl font-bold text-[var(--dark-blue)] sm:mb-10 sm:text-3xl"
+			class="garamond mb-8 text-center text-3xl font-bold text-[var(--dark-blue)] sm:mb-12 sm:text-4xl"
 		>
 			Resources
 		</h2>
 
-		<div class="mx-auto max-w-4xl">
-			{#if sectionVisible['resources']}
+		<div class="mx-auto max-w-6xl">
+			<!-- Either always show resources, or control with sectionVisible -->
+			{#if !sectionVisible || sectionVisible['resources'] === undefined || sectionVisible['resources']}
 				<div
-					class="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:grid-cols-{resourceSections.length}"
+					in:fly={{ y: 30, duration: 1200, delay: 300 }}
+					class="relative overflow-hidden rounded-lg bg-[var(--apple-white)] p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
-					{#each resourceSections as section (section.id)}
-						<div
-							in:fly={{ y: 30, duration: 1200, delay: section.delay }}
-							class="{resourceSections.length > 1 && section.id === 'additional'
-								? 'md:col-span-1'
-								: 'md:col-span-2'} relative overflow-hidden rounded-lg bg-[var(--apple-white)] p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
-						>
-							<!-- Modern subtle pattern using Tailwind bg-opacity -->
-							<div
-								class="bg-opacity-5 pattern-dots pattern-opacity-10 pattern-size-2 pointer-events-none absolute inset-0"
-							></div>
+					<!-- Modern subtle pattern using Tailwind bg-opacity -->
+					<div
+						class="bg-opacity-5 pattern-dots pattern-opacity-10 pattern-size-2 pointer-events-none absolute inset-0"
+					></div>
 
-							<h3 class="relative z-10 mb-4 text-lg font-semibold sm:text-xl">{section.title}</h3>
-
-							{#if section.isList}
-								<ul class="relative z-10 space-y-3 text-gray-700 sm:space-y-4">
-									{#each additionalLinks as link (link.id)}
-										<li
-											class="flex transform items-start transition-transform duration-300 hover:translate-x-2"
-										>
-											{@html ArrowIcon}
-											<a
-												href={link.link}
-												class="text-sm transition-colors duration-300 hover:text-[var(--cerulean-blue)] sm:text-base"
-												>{link.text}</a
-											>
-										</li>
-									{/each}
-								</ul>
-							{:else}
-								{#each section.content as item, i}
-									<p class="relative z-10 mb-4 text-sm sm:text-base">
-										{item.text}
+					<!-- Combined grid of all resources with uniform styling -->
+					<div class="relative z-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+						{#each resources as resource, i}
+							<div 
+								in:fly={{ y: 20, duration: 800, delay: resource.delay }}
+								class="flex h-full flex-col justify-between rounded-md border border-gray-200 bg-white p-5 shadow-sm transition-all duration-300 hover:border-[var(--cerulean-blue)] hover:shadow-md"
+							>
+								<div>
+									<h3 class="mb-3 text-lg font-semibold text-[var(--dark-blue)]">{resource.title}</h3>
+									<p class="mb-4 text-sm text-gray-700">
+										{resource.description}
 									</p>
-									<div class="relative z-10 mb-6 flex flex-wrap">
-										<a
-											href={item.buttonLink}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="group relative mb-3 overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-4 py-2 text-xs font-medium text-white transition-all duration-300 hover:shadow-lg sm:mb-4 sm:px-6 sm:text-sm"
-										>
-											<span class="relative z-10">{item.buttonText}</span>
-											<span
-												class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
-											></span>
-										</a>
-									</div>
-								{/each}
-							{/if}
-						</div>
-					{/each}
+								</div>
+								<div class="mt-auto flex justify-center w-full">
+									<a
+										href={resource.buttonLink}
+										target="_blank"
+										rel="noopener noreferrer"
+										class="group relative inline-block overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white text-center transition-all duration-300 hover:shadow-lg w-full sm:w-auto"
+									>
+										<span class="relative z-10">{resource.buttonText}</span>
+										<span
+											class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
+										></span>
+									</a>
+								</div>
+							</div>
+						{/each}
+					</div>
 				</div>
 
 				<!-- Resource categories - can be expanded or collapsed -->
-				<div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+				<div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
 					{#each ['Legal Resources', 'Educational Materials', 'Advocacy Tools'] as category, i}
 						<div
 							in:fly={{ y: 20, duration: 1000, delay: 900 + i * 150 }}
@@ -149,16 +110,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	/* Dynamic grid columns based on section count */
-	@media (min-width: 1024px) {
-		.grid-cols-1 {
-			grid-template-columns: repeat(1, minmax(0, 1fr));
-		}
-
-		.grid-cols-2 {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
-		}
-	}
-</style>

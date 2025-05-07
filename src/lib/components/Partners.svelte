@@ -3,6 +3,7 @@
 	import bcljc from '$lib/assets/partners/bcl&jc.jpg';
 	import cpe from '$lib/assets/partners/cpe.png';
 	import sqsw from '$lib/assets/partners/sqsw.jpg';
+	import cpda from '$lib/assets/partners/cpda.jpg';
 	import laccpd from '$lib/assets/partners/lapd.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
@@ -26,7 +27,7 @@
 		{
 			id: 3,
 			name: 'California Public Defender Association',
-			image: cpe,
+			image: cpda,
 			link: 'https://www.cpda.org/',
 			delay: 500
 		}
