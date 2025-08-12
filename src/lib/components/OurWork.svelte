@@ -8,7 +8,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2 class="garamond mb-10 text-center text-3xl font-bold text-[var(--dark-blue)]">Our Work</h2>
 
-		<div class="mb-16 grid grid-cols-1 gap-10 md:grid-cols-2">
+		<div class="mb-16 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
 			{#if sectionVisible['our-work']}
 				<div
 					in:fly={{ x: -50, duration: 1400, delay: 300 }}
@@ -73,6 +73,72 @@
 							></span>
 						</button>
 					</div> -->
+				</div>
+
+				<div
+					in:fly={{ y: 50, duration: 1400, delay: 900 }}
+					class="relative overflow-hidden rounded-lg bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"
+				>
+					<!-- Modern gradient accent using Tailwind -->
+					<div
+						class="absolute top-0 left-0 h-full w-2 bg-gradient-to-b from-[var(--cerulean-blue)] to-[var(--dark-blue)]"
+					></div>
+
+					<h3 class="mb-4 pl-4 text-2xl font-semibold text-[var(--cerulean-blue)]">
+						Accelerated Clearance Tool
+					</h3>
+					<p class="mb-6 pl-4 text-gray-700">
+						Built for San Quentin Skunkworks, this tool makes filling out long clearance documents 
+						simpler—preventing mistakes which might postpone the clearance process. This helps to 
+						ensure that Skunkworks is able to bring in volunteers to help change the system from the 
+						inside.
+					</p>
+					<div class="flex items-center pl-4">
+						<a
+							href="https://sqpdf.techjusticelab.org/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
+						>
+							<span class="relative z-10">Visit Tool</span>
+							<span
+								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
+							></span>
+						</a>
+					</div>
+				</div>
+
+				<div
+					in:fly={{ x: -50, duration: 1400, delay: 1200 }}
+					class="relative overflow-hidden rounded-lg bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"
+				>
+					<!-- Modern gradient accent using Tailwind -->
+					<div
+						class="absolute top-0 left-0 h-full w-2 bg-gradient-to-b from-[var(--cerulean-blue)] to-[var(--dark-blue)]"
+					></div>
+
+					<h3 class="mb-4 pl-4 text-2xl font-semibold text-[var(--cerulean-blue)]">
+						Blackout Redaction Engine
+					</h3>
+					<p class="mb-6 pl-4 text-gray-700">
+						A powerful redaction engine that automatically redacts sensitive information from legal 
+						documents. This tool helps protect privacy and ensure compliance by identifying and 
+						removing confidential data, making document processing faster and more secure for legal 
+						professionals and organizations handling sensitive information.
+					</p>
+					<div class="flex items-center pl-4">
+						<a
+							href="https://github.com/techjusticelab/blackout"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
+						>
+							<span class="relative z-10">View on GitHub</span>
+							<span
+								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
+							></span>
+						</a>
+					</div>
 				</div>
 			{/if}
 		</div>

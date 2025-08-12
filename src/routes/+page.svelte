@@ -13,7 +13,7 @@
 
 	// For intersection observer animations
 	let sections = [null, null, null, null, null, null, null, null];
-	let sectionVisible = {
+	let sectionVisible: { [key: string]: boolean } = {
 		home: false,
 		updates: false,
 		'who-we-are': false,
