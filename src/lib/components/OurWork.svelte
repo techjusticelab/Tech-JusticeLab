@@ -60,7 +60,7 @@
 		{/if}
 
 		<!-- Other Projects Grid -->
-		<div class="mb-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
+		<div class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 			{#if sectionVisible['our-work']}
 				<!-- RJA Tool Card -->
 				<div
@@ -153,6 +153,42 @@
 
 						<a
 							href="https://github.com/techjusticelab/blackout"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
+						>
+							<span>View on GitHub</span>
+							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- LawMap Card -->
+				<div
+					in:fly={{ y: 50, duration: 1200, delay: 1000 }}
+					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
+				>
+					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
+					<div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)]"></div>
+
+					<div class="relative p-8">
+						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
+							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+							</svg>
+						</div>
+
+						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
+							LawMap
+						</h3>
+						<p class="mb-6 text-gray-600 leading-relaxed">
+							A comprehensive visual display of the structure and hierarchy of United States law, providing an interactive map to navigate the complex legal landscape from federal to local jurisdictions.
+						</p>
+
+						<a
+							href="https://github.com/techjusticelab/LawMap"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
