@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fly, fade } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 </script>
@@ -8,58 +8,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2 class="garamond mb-16 text-center text-4xl font-bold text-[var(--dark-blue)]">Our Work</h2>
 
-		<!-- Featured Demo Section -->
-		{#if sectionVisible['our-work']}
-			<div
-				in:fade={{ duration: 1000, delay: 200 }}
-				class="mb-20 overflow-hidden rounded-2xl bg-gradient-to-br from-white to-blue-50 p-1 shadow-2xl"
-			>
-				<div class="rounded-xl bg-white p-8 lg:p-12">
-					<div class="mb-8 text-center">
-						<span class="inline-block rounded-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)] px-4 py-1 text-sm font-semibold text-white">
-							Featured Demo
-						</span>
-						<h3 class="mt-4 text-3xl font-bold text-[var(--dark-blue)]">
-							CPDA Motion Banks Tool
-						</h3>
-						<p class="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
-							The California Public Defender's Association Motion Bank revolutionizes legal research by organizing decades of filings, motions, and briefs with advanced semantic search capabilities.
-						</p>
-					</div>
-
-					<div class="relative mx-auto max-w-5xl">
-						<div class="absolute -inset-4 rounded-xl bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)] opacity-20 blur-2xl"></div>
-						<div class="relative aspect-video w-full overflow-hidden rounded-xl bg-gray-900 shadow-2xl">
-							<iframe
-								src="https://www.youtube.com/embed/4u73Xr7E5sg"
-								title="Motion Banks Demo"
-								frameborder="0"
-								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-								allowfullscreen
-								class="absolute inset-0 h-full w-full"
-							></iframe>
-						</div>
-					</div>
-
-					<div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-						<a
-							href="https://youtu.be/4u73Xr7E5sg"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="group relative inline-flex items-center gap-2 overflow-hidden rounded-lg bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)] px-8 py-3 text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
-						>
-							<span class="relative z-10 font-medium">Watch Full Demo</span>
-							<svg class="relative z-10 h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-							</svg>
-						</a>
-						<span class="text-sm text-gray-500">Available for CPDA members soon</span>
-					</div>
-				</div>
-			</div>
-		{/if}
-
-		<!-- Other Projects Grid -->
+		<!-- Projects Grid -->
 		<div class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 			{#if sectionVisible['our-work']}
 				<!-- RJA Tool Card -->
