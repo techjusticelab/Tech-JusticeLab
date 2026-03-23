@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { fade, scale } from 'svelte/transition';
 	import aarya from '$lib/assets/team/arryamuk0.jpg';
-	import alexfor from '$lib/assets/team/alexfor.jpg';
-	import stephenok from '$lib/assets/team/stepheno.jpg';
 	import mayahow from '$lib/assets/team/mayahow.jpg';
+	import diyakar from '$lib/assets/team/diyakar.jpg';
+	import levcol from '$lib/assets/team/levcol.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -27,25 +27,25 @@
 			linkedin: 'https://www.linkedin.com/in/aarya-mukherjee-293089251/',
 			website: 'https://www.dailycal.org/users/profile/aarya%20mukherjee/'
 		},
+		// Add more team members by adding to this array
 		{
 			id: 3,
-			name: 'Stephen Okita',
-			title: 'Head of Software Development',
-			image: stephenok,
+			name: 'Lev Collins',
+			title: 'Software Engineer',
+			image: levcol,
 			delay: 900,
-			linkedin: 'https://www.linkedin.com/in/stephen-okita/',
-			website: 'https://stephenokita.com'
+			linkedin: null,
+			website: null
 		},
 		{
 			id: 4,
-			name: 'Alex Forman',
-			title: 'Head of Engineering',
-			image: alexfor,
-			delay: 1100,
-			linkedin: 'https://www.linkedin.com/in/alex-k-forman/',
+			name: 'Diya Karan',
+			title: 'Racial Justice Act Lead',
+			image: diyakar,
+			delay: 900,
+			linkedin: 'https://www.linkedin.com/in/diya-karan/',
 			website: null
 		}
-		// Add more team members by adding to this array
 	];
 
 	// Function to calculate optimal grid columns based on team size

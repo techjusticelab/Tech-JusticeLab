@@ -30,7 +30,7 @@
 							Racial Justice Act Tool
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
-							Advanced textual analysis tool that identifies racialized language per California RJA claims A1 and A2. Tailored for each county's unique linguistic patterns, piloting with LA County Public Defender's Office.
+							Advanced textual analysis tool that identifies racialized language per California RJA claims A1 and A2. Tailored for each county's unique linguistic patterns.
 						</p>
 
 						<div class="flex items-center text-sm font-medium text-[var(--cerulean-blue)]">
@@ -39,42 +39,6 @@
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
 							</svg>
 						</div>
-					</div>
-				</div>
-
-				<!-- Accelerated Clearance Tool Card -->
-				<div
-					in:fly={{ y: 50, duration: 1200, delay: 600 }}
-					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
-				>
-					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
-					<div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)]"></div>
-
-					<div class="relative p-8">
-						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
-							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
-							</svg>
-						</div>
-
-						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
-							Accelerated Clearance
-						</h3>
-						<p class="mb-6 text-gray-600 leading-relaxed">
-							Streamlines San Quentin Skunkworks' volunteer clearance process, preventing documentation errors that could delay critical volunteer contributions to prison reform initiatives.
-						</p>
-
-						<a
-							href="https://sqpdf.techjusticelab.org/"
-							target="_blank"
-							rel="noopener noreferrer"
-							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
-						>
-							<span>Visit Tool</span>
-							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-							</svg>
-						</a>
 					</div>
 				</div>
 
@@ -114,7 +78,7 @@
 					</div>
 				</div>
 
-				<!-- LawMap Card -->
+			<!-- CPDA Motion Bank Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 1000 }}
 					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
@@ -125,24 +89,24 @@
 					<div class="relative p-8">
 						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
 							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2"></path>
 							</svg>
 						</div>
 
 						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
-							LawMap
+							California Public Defenders Association Motion Bank
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
-							A comprehensive visual display of the structure and hierarchy of United States law, providing an interactive map to navigate the complex legal landscape from federal to local jurisdictions.
+							The CPDA Motion Bank organizes decades of motions, filings, and resources into a searchable database. Users can utilize the tool in case research and can upload their own documents to be used by fellow attorneys.
 						</p>
 
 						<a
-							href="https://github.com/techjusticelab/LawMap"
+							href="https://motionbank.cpda.org/auth"
 							target="_blank"
 							rel="noopener noreferrer"
 							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
 						>
-							<span>View on GitHub</span>
+							<span>Available now to CPDA Premium Members!</span>
 							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
 							</svg>

@@ -45,7 +45,7 @@
 				>
 					<h3 class="mb-2 text-xl font-semibold">CPDA MotionBank</h3>
 					<p class="mb-4 text-gray-600">
-						Beta Testing a rework of the California Public Defenders Association's Motion Bank, using novel data science to make legal resources easily searchable. 
+						The CPDA Motion Bank is launched! Now available to public defenders across California.
 					</p>
 					<a
 						href="#partners"
