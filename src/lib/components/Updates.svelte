@@ -48,7 +48,7 @@
 						The CPDA Motion Bank is launched! Now available to public defenders across California.
 					</p>
 					<a
-						href="#partners"
+						href="#our-work"
 						class="group inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
 						>Learn more
 					</a>
