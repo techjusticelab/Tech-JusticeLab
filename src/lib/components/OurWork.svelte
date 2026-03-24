@@ -30,7 +30,7 @@
 							Racial Justice Act Tool
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
-							Ideated by and built in partnership with San Quentin SkunkWorks, this tool utilizes advanced textual analysis to identify racialized language per California RJA claims A1 and A2. It is built in collaboration with individual public defenders offices, trained on the racial nuances of each geographic region. and securely stored on local servers in users' offices.
+							Ideated by and built in partnership with San Quentin SkunkWorks, this tool utilizes advanced textual analysis to identify racialized language per California RJA claims A1 and A2. Built in close collaboration with individual public defenders offices, trained on the racial nuances of each geographic region, and securely stored on local servers in users' offices.
 						</p>
 
 						<a
