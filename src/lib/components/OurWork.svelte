@@ -113,6 +113,36 @@
 						</a>
 					</div>
 				</div>
+			<!-- BillWatch Card -->
+				<div
+					in:fly={{ y: 50, duration: 1200, delay: 1200 }}
+					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
+				>
+					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
+					<div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)]"></div>
+
+					<div class="relative p-8">
+						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
+							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+							</svg>
+						</div>
+
+						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
+							BillWatch
+						</h3>
+						<p class="mb-6 text-gray-600 leading-relaxed">
+							Organizational tool for advocates and legislative staff. Tracks bills in the California legislature through a user-friendly dashboard of selected bills, notifies users of hearing and letter submission dates, notes support, opposition, amendments and budget updates, allows advocates to connect with/track bills coalition-style.
+						</p>
+
+						<div class="flex items-center text-sm font-medium text-[var(--cerulean-blue)]">
+							<span>Coming Soon</span>
+							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+							</svg>
+						</div>
+					</div>
+				</div>
 			{/if}
 		</div>
 	</div>
