@@ -33,12 +33,15 @@
 							Ideated by San Quentin SkunkWorks, this tool utilizes advanced textual analysis tool that identifies racialized language per California RJA claims A1 and A2. It is built in collaboration with individual public defenders offices, trained on the racial nuances of each geographic region. and securely stored on local servers in users' offices.
 						</p>
 
-						<div class="flex items-center text-sm font-medium text-[var(--cerulean-blue)]">
-							<span>Piloting Soon</span>
+						<a
+							href="mailto:info@techjusticelab.org"
+							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
+						>
+							<span>If your office is interested, contact us here</span>
 							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
 							</svg>
-						</div>
+						</a>
 					</div>
 				</div>
 
