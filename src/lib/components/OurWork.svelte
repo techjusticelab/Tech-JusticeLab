@@ -8,9 +8,9 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2 class="garamond mb-16 text-center text-4xl font-bold text-[var(--dark-blue)]">Our Work</h2>
 
-		<!-- Projects Grid -->
-		<div class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
-			{#if sectionVisible['our-work']}
+		{#if sectionVisible['our-work']}
+			<!-- Projects Grid -->
+			<div class="mb-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
 				<!-- RJA Tool Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 400 }}
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 
-			<!-- CPDA Motion Bank Card -->
+				<!-- CPDA Motion Bank Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 1000 }}
 					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
@@ -116,7 +116,8 @@
 						</a>
 					</div>
 				</div>
-			<!-- BillWatch Card -->
+
+				<!-- BillWatch Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 1200 }}
 					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
@@ -146,7 +147,40 @@
 						</div>
 					</div>
 				</div>
-			{/if}
-		</div>
+			</div>
+
+			<!-- PRA Machine Card (centered) -->
+			<div class="mb-16 flex justify-center">
+				<div
+					in:fly={{ y: 50, duration: 1200, delay: 1400 }}
+					class="group relative w-full overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl md:w-1/2"
+				>
+					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
+					<div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)]"></div>
+
+					<div class="relative p-8">
+						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
+							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+							</svg>
+						</div>
+
+						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
+							PRA Machine
+						</h3>
+						<p class="mb-6 text-gray-600 leading-relaxed">
+							The PRA Machine is an AI-powered tool that converts natural-language inputs into legally sound public records requests, sending them to designated California government agencies and institutions. It tracks all submitted requests in a centralized dashboard, monitoring response timelines and triggering automated follow-ups if agencies miss their 10-day California CPRA acknowledgment deadline. The tool also supports splitting complex requests into multiple targeted sub-requests to avoid “overly laborious” rejections and streamline response times.
+						</p>
+
+						<div class="flex items-center text-sm font-medium text-[var(--cerulean-blue)]">
+							<span>Coming Soon</span>
+							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		{/if}
 	</div>
 </section>
