@@ -60,6 +60,18 @@
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
+					<h3 class="mb-2 text-xl font-semibold">Berkeley Tech and Justice Lab in the news!</h3>
+					<p class="mb-4 text-gray-600">
+						Read about the launch of the CPDA Motions Bank Tool <a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="text-[var(--cerulean-blue)] hover:underline">here</a>!
+					</p>
+				</div>
+
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
+				<div
+					in:fly={{ y: 30, duration: 1200, delay: 1200 }}
+					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+					on:mousemove={handleMouseMove}
+				>
 					<h3 class="mb-2 text-xl font-semibold">Internship Opportunities</h3>
 					<p class="mb-4 text-gray-600">
 						Join our team of developers working on technology for social justice.
