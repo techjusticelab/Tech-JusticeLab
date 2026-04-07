@@ -45,7 +45,7 @@
 				>
 					<h3 class="mb-2 text-xl font-semibold">CPDA Motions Bank</h3>
 					<p class="mb-4 text-gray-600">
-						The CPDA Motion Bank is launched! Now available to public defenders across California.
+						The CPDA Motions Bank is launched! Now available to public defenders across California.
 					</p>
 					<a
 						href="#our-work"
