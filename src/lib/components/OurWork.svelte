@@ -97,7 +97,7 @@
 						</div>
 
 						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
-							California Public Defenders Association Motion Bank
+							California Public Defenders Association Motions Bank
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
 							The CPDA Motion Bank organizes decades of motions, filings, and resources into a searchable database. Users can utilize the tool in case research and can upload their own documents to be used by fellow attorneys.
