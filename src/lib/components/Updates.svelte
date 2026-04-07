@@ -64,6 +64,9 @@
 					<p class="mb-4 text-gray-600">
 						Read about the launch of the CPDA Motions Bank Tool <a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="text-[var(--cerulean-blue)] hover:underline">here</a>!
 					</p>
+					<blockquote class="border-l-4 border-[var(--cerulean-blue)] pl-4 italic text-gray-600">
+						"Avneet Chattha, a deputy public defender in Los Angeles County, said the motions bank has saved him three to four hours every time he has used it."
+					</blockquote>
 				</div>
 
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
