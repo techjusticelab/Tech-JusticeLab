@@ -24,7 +24,7 @@
 				>
 					<h3 class="mb-2 text-xl font-semibold">Spring Fund Drive!</h3>
 					<p class="mb-4 text-gray-600">
-						Consider contributing to BTJL's Spring Fund Drive! Your donations power tools for the public good!
+						Consider contributing to BTJL's Spring Fund Drive! Your donations power tools for the public good.
 					</p>
 					<a
 						href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
