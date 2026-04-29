@@ -134,7 +134,9 @@
 				<h3 class="mb-4 text-lg font-semibold">Support Us</h3>
 				<p class="mb-4">Your donations help us create digital tools for justice.</p>
 				<a
-					href="#"
+					href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
+					target="_blank"
+					rel="noopener noreferrer"
 					class="btn-primary inline-block rounded-md bg-white px-6 py-2 text-sm font-medium text-[var(--dark-blue)]"
 				>
 					Donate Now
