@@ -5,6 +5,7 @@
 	import sqsw from '$lib/assets/partners/sqsw.jpg';
 	import cpda from '$lib/assets/partners/cpda.jpg';
 	import laccpd from '$lib/assets/partners/lapd.jpg';
+	import dailycal from '$lib/assets/partners/dailycal.png';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -30,6 +31,13 @@
 			image: cpda,
 			link: 'https://www.cpda.org/',
 			delay: 500
+		},
+		{
+			id: 4,
+			name: 'The Daily Californian',
+			image: dailycal,
+			link: 'https://www.dailycal.org/',
+			delay: 600
 		}
 		// {
 		// 	id: 3,
