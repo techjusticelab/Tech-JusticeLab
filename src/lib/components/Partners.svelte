@@ -27,7 +27,7 @@
 		},
 		{
 			id: 3,
-			name: 'California Public Defender Association',
+			name: 'California Public Defenders Association',
 			image: cpda,
 			link: 'https://www.cpda.org/',
 			delay: 500
