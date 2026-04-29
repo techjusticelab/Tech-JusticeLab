@@ -19,6 +19,24 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 300 }}
+					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:col-span-3"
+					on:mousemove={handleMouseMove}
+				>
+					<h3 class="mb-2 text-xl font-semibold">Spring Fund Drive!</h3>
+					<p class="mb-4 text-gray-600">
+						Consider contributing to BTJL's Spring Fund Drive! Your donations power tools for the public good!
+					</p>
+					<a
+						href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
+					>Donate here</a>
+				</div>
+
+				<!-- svelte-ignore a11y_no_static_element_interactions -->
+				<div
+					in:fly={{ y: 30, duration: 1200, delay: 600 }}
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
