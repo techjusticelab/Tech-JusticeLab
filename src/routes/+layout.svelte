@@ -39,8 +39,12 @@
 				<a href="#contact" class="nav-link px-2 py-2 text-sm font-medium">Contact</a>
 			</div>
 			<div class="flex items-center">
-				<button class="btn-primary hidden rounded-md px-4 py-2 text-sm font-medium lg:flex"
-					>Donate</button
+				<a
+					href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="btn-primary hidden rounded-md px-4 py-2 text-sm font-medium lg:flex"
+					>Donate</a
 				>
 				<div class="flex items-center md:hidden">
 					<button
