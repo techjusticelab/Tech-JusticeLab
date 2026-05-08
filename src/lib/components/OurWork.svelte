@@ -139,12 +139,17 @@
 							Organizational tool for advocates and legislative staff. Tracks bills in the California legislature through a user-friendly dashboard of selected bills, notifies users of hearing and letter submission dates, notes support, opposition, amendments and budget updates, allows advocates to connect with/track bills coalition-style.
 						</p>
 
-						<div class="flex items-center text-sm font-medium text-[var(--cerulean-blue)]">
-							<span>Coming Soon</span>
+						<a
+							href="https://billwatch.techjusticelab.org"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
+						>
+							<span>Now beta testing — try it out here</span>
 							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
 							</svg>
-						</div>
+						</a>
 					</div>
 				</div>
 			</div>
