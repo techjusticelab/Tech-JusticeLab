@@ -61,9 +61,9 @@
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
-					<h3 class="mb-2 text-xl font-semibold">CPDA Motions Bank</h3>
+					<h3 class="mb-2 text-xl font-semibold">CPDA Motion Bank</h3>
 					<p class="mb-4 text-gray-600">
-						The CPDA Motions Bank is launched! Now available to public defenders across California.
+						The CPDA Motion Bank is launched! Now available to public defenders across California.
 					</p>
 					<a
 						href="#our-work"
@@ -80,7 +80,7 @@
 				>
 					<h3 class="mb-2 text-xl font-semibold">Berkeley Tech and Justice Lab in the news!</h3>
 					<p class="mb-4 text-gray-600">
-						Read about the launch of the CPDA Motions Bank Tool <a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="text-[var(--cerulean-blue)] hover:underline">here</a>!
+						Read about the launch of the CPDA Motion Bank Tool <a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="text-[var(--cerulean-blue)] hover:underline">here</a>!
 					</p>
 					<blockquote class="border-l-4 border-[var(--cerulean-blue)] pl-4 italic text-gray-600">
 						"Avneet Chattha, a deputy public defender in Los Angeles County, said the motions bank has saved him three to four hours every time he has used it."

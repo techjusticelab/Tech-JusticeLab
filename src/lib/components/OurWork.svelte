@@ -81,7 +81,7 @@
 					</div>
 				</div>
 
-				<!-- CPDA Motions Bank Card -->
+				<!-- CPDA Motion Bank Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 1000 }}
 					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
@@ -97,10 +97,10 @@
 						</div>
 
 						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
-							California Public Defenders Association Motions Bank
+							California Public Defenders Association Motion Bank
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
-							The CPDA Motions Bank organizes decades of motions, filings, and resources into a searchable database. Users can utilize the tool in case research and can upload their own documents to be used by fellow attorneys.
+							The CPDA Motion Bank organizes decades of motions, filings, and resources into a searchable database. Users can utilize the tool in case research and can upload their own documents to be used by fellow attorneys.
 						</p>
 
 						<a
