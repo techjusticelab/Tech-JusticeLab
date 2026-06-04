@@ -12,7 +12,7 @@
 		{
 			id: 1,
 			name: 'Maya Howard',
-			title: 'Director of Operations',
+			title: 'Executive Director',
 			image: mayahow,
 			delay: 500,
 			linkedin: 'https://www.linkedin.com/in/maya-dale-howard-651a6129b/',
