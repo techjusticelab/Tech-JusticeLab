@@ -13,6 +13,8 @@
 			});
 		}
 	});
+
+	let mobileMenuOpen = $state(false);
 </script>
 
 <!-- Navigation -->
@@ -49,28 +51,44 @@
 				<div class="flex items-center md:hidden">
 					<button
 						type="button"
+						onclick={() => mobileMenuOpen = !mobileMenuOpen}
 						class="inline-flex items-center justify-center rounded-md p-2 text-[var(--cerulean-blue)]"
 					>
-						<svg
-							class="h-6 w-6"
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke="currentColor"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M4 6h16M4 12h16M4 18h16"
-							/>
-						</svg>
+						{#if mobileMenuOpen}
+							<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+							</svg>
+						{:else}
+							<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+							</svg>
+						{/if}
 					</button>
 				</div>
 			</div>
 		</div>
 	</div>
 </nav>
+
+{#if mobileMenuOpen}
+	<div class="sticky top-16 z-40 bg-[var(--apple-white)] shadow-md md:hidden">
+		<div class="flex flex-col space-y-1 px-4 py-3">
+			<a href="#home" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Home</a>
+			<a href="#who-we-are" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Who Are We</a>
+			<a href="#our-work" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Our Work</a>
+			<a href="#resources" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Resources</a>
+			<a href="#get-involved" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Get Involved</a>
+			<a href="#partners" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Partners</a>
+			<a href="#contact" onclick={() => mobileMenuOpen = false} class="nav-link block px-3 py-2 text-sm font-medium">Contact</a>
+			<a
+				href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="btn-primary mt-2 inline-block rounded-md px-4 py-2 text-center text-sm font-medium"
+			>Donate</a>
+		</div>
+	</div>
+{/if}
 
 {@render children()}
 
