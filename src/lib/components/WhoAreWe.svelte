@@ -11,7 +11,7 @@
 		{
 			id: 1,
 			name: 'Maya Howard',
-			title: 'Executive Director',
+			title: 'Co-Founder, Executive Director',
 			image: mayahow,
 			delay: 500,
 			linkedin: 'https://www.linkedin.com/in/maya-dale-howard-651a6129b/',
@@ -20,7 +20,7 @@
 		{
 			id: 2,
 			name: 'Aarya Mukherjee',
-			title: 'Managing Director',
+			title: 'Co-Founder, Managing Director',
 			image: aarya,
 			delay: 700,
 			linkedin: 'https://www.linkedin.com/in/aarya-mukherjee-293089251/',
