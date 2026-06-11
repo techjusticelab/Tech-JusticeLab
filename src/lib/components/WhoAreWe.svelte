@@ -2,7 +2,6 @@
 	import { fade, scale } from 'svelte/transition';
 	import aarya from '$lib/assets/team/arryamuk0.jpg';
 	import mayahow from '$lib/assets/team/mayahow.jpg';
-	import diyakar from '$lib/assets/team/diyakar.jpg';
 	import levcol from '$lib/assets/team/levcol.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
@@ -37,15 +36,6 @@
 			linkedin: null,
 			website: null
 		},
-		{
-			id: 4,
-			name: 'Diya Karan',
-			title: 'Racial Justice Act Lead',
-			image: diyakar,
-			delay: 900,
-			linkedin: 'https://www.linkedin.com/in/diya-karan/',
-			website: null
-		}
 	];
 
 	// Function to calculate optimal grid columns based on team size
