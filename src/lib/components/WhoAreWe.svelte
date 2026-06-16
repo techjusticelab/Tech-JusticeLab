@@ -3,6 +3,7 @@
 	import aarya from '$lib/assets/team/arryamuk0.jpg';
 	import mayahow from '$lib/assets/team/mayahow.jpg';
 	import levcol from '$lib/assets/team/levcol.jpg';
+	import carolineward from '$lib/assets/team/carolineward.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -33,6 +34,15 @@
 			title: 'Software Engineer',
 			image: levcol,
 			delay: 900,
+			linkedin: null,
+			website: null
+		},
+		{
+			id: 4,
+			name: 'Caroline Ward',
+			title: 'Development Coordinator',
+			image: carolineward,
+			delay: 1100,
 			linkedin: null,
 			website: null
 		},
