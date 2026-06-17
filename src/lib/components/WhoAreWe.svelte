@@ -4,6 +4,7 @@
 	import mayahow from '$lib/assets/team/mayahow.jpg';
 	import levcol from '$lib/assets/team/levcol.jpg';
 	import carolineward from '$lib/assets/team/carolineward.jpg';
+	import zachpric from '$lib/assets/team/zachpric.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -30,15 +31,24 @@
 		// Add more team members by adding to this array
 		{
 			id: 3,
-			name: 'Lev Collins',
+			name: 'Zachary Pricz',
 			title: 'Software Engineer',
-			image: levcol,
+			image: zachpric,
 			delay: 900,
 			linkedin: null,
 			website: null
 		},
 		{
 			id: 4,
+			name: 'Lev Collins',
+			title: 'Software Engineer',
+			image: levcol,
+			delay: 1000,
+			linkedin: null,
+			website: null
+		},
+		{
+			id: 5,
 			name: 'Caroline Ward',
 			title: 'Development Coordinator',
 			image: carolineward,
