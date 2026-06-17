@@ -99,8 +99,7 @@
 			<div class="col-span-1 md:col-span-2">
 				<h3 class="garamond mb-4 text-xl font-bold">Berkeley Technology and Justice Lab</h3>
 				<p class="mb-4 max-w-md">
-					Creating digital tools for defense attorneys, incarcerated people and their loved ones,
-					and criminal justice organizers.
+					Providing free and low-cost digital tools to organizations and individuals working to better our world.
 				</p>
 				<div class="flex space-x-4">
 					<a
