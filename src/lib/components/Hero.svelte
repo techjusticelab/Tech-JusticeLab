@@ -55,15 +55,14 @@
 					? 'animated'
 					: ''}"
 			>
-				Creating Digital Tools for Justice
+				Building Technology for Social Change
 			</h1>
 			<p
 				class="animate-fade-in animate-slide-up mx-auto mt-6 max-w-3xl text-xl text-white delay-2 {isAnimated
 					? 'animated'
 					: ''}"
 			>
-				Building technology to advance racial equity, decarcerate, and promote transparency in the
-				criminal legal system.
+				Providing free and low-cost digital tools to organizations and individuals working to better our world.
 			</p>
 			<div
 				class="animate-fade-in animate-slide-up mt-10 flex justify-center delay-3 {isAnimated
