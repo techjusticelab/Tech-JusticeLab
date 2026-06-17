@@ -94,11 +94,11 @@
 
 			<div class="mx-auto max-w-6xl">
 				<!-- Responsive grid that adapts based on team size -->
-				<div class="grid {gridColsClass} gap-4 sm:gap-6 md:gap-8">
+				<div class="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
 					{#each teamMembers as member (member.id)}
 						<div
 							in:scale={{ duration: 800, delay: member.delay }}
-							class="rounded-lg bg-[var(--apple-white)] p-4 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl sm:p-6"
+							class="w-full rounded-lg bg-[var(--apple-white)] p-4 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl sm:w-[calc(50%-0.75rem)] sm:p-6 lg:w-[calc(33.333%-1.334rem)]"
 						>
 							<div
 								class="mx-auto mb-3 h-24 w-24 overflow-hidden rounded-full sm:mb-4 sm:h-28 sm:w-28 md:h-32 md:w-32"

@@ -14,12 +14,12 @@
 			Latest Updates
 		</h2>
 
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
+		<div class="flex flex-wrap justify-center gap-8">
 			{#if sectionVisible['updates']}
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 300 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:col-span-3"
+					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
 					on:mousemove={handleMouseMove}
 				>
 					<h3 class="mb-2 text-xl font-semibold">Spring Fund Drive!</h3>
@@ -37,7 +37,7 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 600 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
 					on:mousemove={handleMouseMove}
 				>
 					<h3 class="mb-2 text-xl font-semibold">RJA Tool Development</h3>
@@ -58,7 +58,7 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 600 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
 					on:mousemove={handleMouseMove}
 				>
 					<h3 class="mb-2 text-xl font-semibold">CPDA Motion Bank</h3>
@@ -75,7 +75,7 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 900 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
 					on:mousemove={handleMouseMove}
 				>
 					<h3 class="mb-2 text-xl font-semibold">Berkeley Tech and Justice Lab in the news!</h3>
@@ -90,7 +90,7 @@
 				<!-- svelte-ignore a11y_no_static_element_interactions -->
 				<div
 					in:fly={{ y: 30, duration: 1200, delay: 1200 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
 					on:mousemove={handleMouseMove}
 				>
 					<h3 class="mb-2 text-xl font-semibold">Internship Opportunities</h3>
