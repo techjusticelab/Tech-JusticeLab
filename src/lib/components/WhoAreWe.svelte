@@ -35,8 +35,8 @@
 			title: 'Software Engineer',
 			image: zachpric,
 			delay: 900,
-			linkedin: null,
-			website: null
+			linkedin: 'https://www.linkedin.com/in/zpricz',
+			website: 'https://zjpricz100.github.io'
 		},
 		{
 			id: 4,
