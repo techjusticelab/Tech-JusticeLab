@@ -2,7 +2,7 @@
 	import { scale } from 'svelte/transition';
 	import andreacrider from '$lib/assets/team/andreacrider.jpg';
 	import billdrummond from '$lib/assets/team/billdrummond.jpg';
-	import avneetchattha from '$lib/assets/team/avneetchattha.png';
+	import avneetchattha from '$lib/assets/team/avneetchattha.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
