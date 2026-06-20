@@ -2,7 +2,7 @@
 	import { scale } from 'svelte/transition';
 	import andreacrider from '$lib/assets/team/andreacrider.jpg';
 	import billdrummond from '$lib/assets/team/billdrummond.jpg';
-	import avneetchattha from '$lib/assets/team/avneetchattha.jpg';
+	import avneetchattha from '$lib/assets/team/avneetchattha.png';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -20,7 +20,7 @@
 			id: 2,
 			name: 'William J. Drummond',
 			title: 'Journalist, Professor',
-			org: '',
+			org: 'UC Berkeley Graduate School of Journalism',
 			image: billdrummond,
 			linkedin: null,
 			delay: 500
