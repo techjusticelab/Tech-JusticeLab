@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { scale } from 'svelte/transition';
 	import andreacrider from '$lib/assets/team/andreacrider.jpg';
+	import billdrummond from '$lib/assets/team/billdrummond.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -13,6 +14,15 @@
 			image: andreacrider,
 			linkedin: null,
 			delay: 300
+		}
+		{
+			id: 2,
+			name: 'William J. Drummond',
+			title: 'Journalist, Professor',
+			org: '',
+			image: billdrummond,
+			linkedin: null,
+			delay: 500
 		}
 		// Add more board members here
 	];
