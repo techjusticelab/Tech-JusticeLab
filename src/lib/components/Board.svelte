@@ -33,7 +33,7 @@
 			title: 'Deputy Public Defender, Los Angeles County',
 			org: 'BearisterAI',
 			image: avneetchattha,
-			imgPosition: '65% 10%',
+			imgPosition: '75% 10%',
 			linkedin: null,
 			delay: 700
 		}
