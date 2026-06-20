@@ -2,6 +2,7 @@
 	import { scale } from 'svelte/transition';
 	import andreacrider from '$lib/assets/team/andreacrider.jpg';
 	import billdrummond from '$lib/assets/team/billdrummond.jpg';
+	import avneetchattha from '$lib/assets/team/avneetchattha.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -23,6 +24,15 @@
 			image: billdrummond,
 			linkedin: null,
 			delay: 500
+		}
+		{
+			id: 3,
+			name: 'Avneet Chattha',
+			title: 'Deputy Public Defender, Los Angeles County',
+			org: 'BearisterAI',
+			image: avneetchattha,
+			linkedin: null,
+			delay: 700
 		}
 		// Add more board members here
 	];
