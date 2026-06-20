@@ -15,7 +15,7 @@
 			image: andreacrider,
 			linkedin: null,
 			delay: 300
-		}
+		},
 		{
 			id: 2,
 			name: 'William J. Drummond',
@@ -24,7 +24,7 @@
 			image: billdrummond,
 			linkedin: null,
 			delay: 500
-		}
+		},
 		{
 			id: 3,
 			name: 'Avneet Chattha',
