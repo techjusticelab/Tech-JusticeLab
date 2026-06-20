@@ -54,7 +54,7 @@
 					>
 						<div class="mb-5 h-32 w-32 overflow-hidden rounded-full border-4 border-[var(--cerulean-blue)]/20">
 							{#if member.image}
-								<img src={member.image} alt={member.name} class="h-full w-full object-cover" />
+								<img src={member.image} alt={member.name} class="h-full w-full object-cover object-top" />
 							{:else}
 								<div class="flex h-full w-full items-center justify-center bg-[var(--cerulean-blue)]/10">
 									<svg class="h-12 w-12 text-[var(--cerulean-blue)]/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
