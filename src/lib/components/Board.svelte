@@ -45,7 +45,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2 class="garamond mb-4 text-center text-4xl font-bold text-[var(--dark-blue)]">Our Board</h2>
 		<p class="mb-16 text-center text-gray-500">
-			The Berkeley Technology and Justice Lab is guided by an advisory board of experts across law, technology, and social justice.
+			The Berkeley Technology and Justice Lab is guided by a board of experts across law, technology, and social justice.
 		</p>
 
 		{#if sectionVisible['board']}
