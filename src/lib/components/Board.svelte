@@ -13,6 +13,7 @@
 			title: 'Staff Attorney/Lecturer',
 			org: "UC Berkeley Law's Criminal Law and Justice Center",
 			image: andreacrider,
+			imgPosition: 'top',
 			linkedin: null,
 			delay: 300
 		},
@@ -22,6 +23,7 @@
 			title: 'Journalist, Professor',
 			org: 'UC Berkeley Graduate School of Journalism',
 			image: billdrummond,
+			imgPosition: 'top',
 			linkedin: null,
 			delay: 500
 		},
@@ -31,6 +33,7 @@
 			title: 'Deputy Public Defender, Los Angeles County',
 			org: 'BearisterAI',
 			image: avneetchattha,
+			imgPosition: '20%',
 			linkedin: null,
 			delay: 700
 		}
@@ -54,7 +57,7 @@
 					>
 						<div class="mb-5 h-32 w-32 overflow-hidden rounded-full border-4 border-[var(--cerulean-blue)]/20">
 							{#if member.image}
-								<img src={member.image} alt={member.name} class="h-full w-full object-cover object-top" />
+								<img src={member.image} alt={member.name} class="h-full w-full object-cover" style="object-position: center {member.imgPosition}" />
 							{:else}
 								<div class="flex h-full w-full items-center justify-center bg-[var(--cerulean-blue)]/10">
 									<svg class="h-12 w-12 text-[var(--cerulean-blue)]/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
