@@ -5,6 +5,7 @@
 	import OurWork from '$lib/components/OurWork.svelte';
 	import Resources from '$lib/components/Resources.svelte';
 	import GetInvolved from '$lib/components/GetInvolved.svelte';
+	import Board from '$lib/components/Board.svelte';
 	import Partners from '$lib/components/Partners.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import BackToTop from '$lib/components/BackToTop.svelte';
@@ -20,6 +21,7 @@
 		'our-work': false,
 		resources: false,
 		'get-involved': false,
+		board: false,
 		partners: false,
 		contact: false
 	};
@@ -61,6 +63,7 @@
 	<Hero {y} {sectionVisible} />
 	<Updates {sectionVisible} />
 	<WhoWeAre {sectionVisible} />
+	<Board {sectionVisible} />
 	<OurWork {sectionVisible} />
 	<Partners {sectionVisible} />
 	<GetInvolved {sectionVisible} />
