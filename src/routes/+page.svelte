@@ -62,10 +62,10 @@
 <main>
 	<Hero {y} {sectionVisible} />
 	<Updates {sectionVisible} />
+	<OurWork {sectionVisible} />
 	<WhoWeAre {sectionVisible} />
 	<Partners {sectionVisible} />
 	<Board {sectionVisible} />
-	<OurWork {sectionVisible} />
 	<GetInvolved {sectionVisible} />
 	<Resources {sectionVisible} />
 	<Contact {sectionVisible} />
