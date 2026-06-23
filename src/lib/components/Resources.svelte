@@ -94,18 +94,7 @@
 					</div>
 				</div>
 
-				<!-- Resource categories - can be expanded or collapsed -->
-				<div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
-					{#each ['Legal Resources', 'Educational Materials', 'Advocacy Tools'] as category, i}
-						<div
-							in:fly={{ y: 20, duration: 1000, delay: 900 + i * 150 }}
-							class="rounded-lg border-2 border-[var(--apple-white)] bg-white p-4 text-center shadow-sm transition-all duration-300 hover:border-[var(--cerulean-blue)] hover:shadow-md"
-						>
-							<h4 class="text-base font-medium text-[var(--dark-blue)] sm:text-lg">{category}</h4>
-							<p class="mt-2 text-xs text-gray-600 sm:text-sm">Coming soon</p>
-						</div>
-					{/each}
-				</div>
+
 			{/if}
 		</div>
 	</div>
