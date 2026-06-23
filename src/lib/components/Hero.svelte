@@ -55,7 +55,7 @@
 					? 'animated'
 					: ''}"
 			>
-				Building Technology for Social Change
+				Tech that punches up,<br />not down.
 			</h1>
 			<p
 				class="animate-fade-in animate-slide-up mx-auto mt-6 max-w-3xl text-xl text-white delay-2 {isAnimated
