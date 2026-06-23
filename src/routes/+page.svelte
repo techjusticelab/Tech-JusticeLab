@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Hero from '$lib/components/Hero.svelte';
 	import Updates from '$lib/components/Updates.svelte';
+	import AboutUs from '$lib/components/AboutUs.svelte';
 	import WhoWeAre from '$lib/components/WhoAreWe.svelte';
 	import OurWork from '$lib/components/OurWork.svelte';
 	import Resources from '$lib/components/Resources.svelte';
@@ -17,6 +18,7 @@
 	let sectionVisible: { [key: string]: boolean } = {
 		home: false,
 		updates: false,
+		'about-us': false,
 		'who-we-are': false,
 		'our-work': false,
 		resources: false,
@@ -62,6 +64,7 @@
 <main>
 	<Hero {y} {sectionVisible} />
 	<Updates {sectionVisible} />
+	<AboutUs {sectionVisible} />
 	<OurWork {sectionVisible} />
 	<WhoWeAre {sectionVisible} />
 	<Partners {sectionVisible} />
