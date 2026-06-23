@@ -22,43 +22,41 @@
 
 <section
 	id="home"
-	class="relative overflow-hidden bg-[var(--cerulean-blue)]"
+	class="relative overflow-hidden bg-gradient-to-br from-[var(--dark-blue)] via-[#1a5f8a] to-[var(--cerulean-blue)]"
 	on:mousemove={handleMouseMove}
 >
-	<!-- Parallax background using Tailwind translate -->
+	<!-- Parallax depth layer -->
 	<div
-		class="absolute inset-0 bg-gradient-to-br from-transparent to-black/10"
+		class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"
 		style="transform: translateY({y * -0.1}px);"
 	></div>
 
-	<!-- Floating shapes with enhanced animations -->
-	<!-- Original shapes -->
+	<!-- Dot grid texture overlay -->
+	<div class="dot-grid absolute inset-0 opacity-20"></div>
+
+	<!-- Floating shapes -->
 	<div class="shape-float-1 absolute top-20 left-10 h-20 w-20 rounded-full bg-white/5"></div>
 	<div class="shape-float-2 absolute right-10 bottom-40 h-32 w-32 rounded-full bg-white/5"></div>
 	<div class="shape-float-3 absolute top-1/3 right-1/4 h-16 w-16 rounded-full bg-white/5"></div>
-
-	<!-- Additional shapes -->
 	<div class="shape-float-4 absolute bottom-20 left-1/4 h-24 w-24 rounded-full bg-white/5"></div>
 	<div class="shape-float-5 absolute top-1/2 left-1/3 h-12 w-12 rounded-full bg-white/5"></div>
 	<div class="shape-float-6 absolute right-1/3 bottom-1/3 h-28 w-28 rounded-full bg-white/5"></div>
-
-	<!-- Non-circular shapes for variety -->
 	<div class="shape-float-7 absolute top-1/4 left-1/2 h-20 w-20 rotate-45 bg-white/5"></div>
-	<div class="shape-float-8 absolute bottom-40 left-1/3 h-16 w-48 rounded-lg bg-white/4"></div>
-	<div class="shape-float-9 absolute top-1/2 right-16 h-32 w-16 rounded-lg bg-white/3"></div>
 
-	<div class="relative z-10 mx-auto max-w-7xl px-4 py-24 text-center sm:px-6 lg:px-8">
+	<div class="relative z-10 mx-auto max-w-7xl px-4 py-32 text-center sm:px-6 lg:px-8 lg:py-44">
 		{#if sectionVisible['home'] || true}
 			<!-- Always show content but animate conditionally -->
 			<h1
-				class="garamond animate-fade-in animate-slide-up whitespace-nowrap text-3xl leading-tight font-bold text-white delay-1 sm:text-4xl md:text-5xl lg:text-6xl {isAnimated
+				class="garamond animate-fade-in animate-slide-up whitespace-nowrap tracking-tight text-3xl leading-tight font-bold text-white delay-1 sm:text-4xl md:text-5xl lg:text-6xl {isAnimated
 					? 'animated'
 					: ''}"
 			>
 				Tech that punches up, not down.
 			</h1>
+			<!-- Accent line -->
+			<div class="animate-fade-in animate-slide-up mx-auto mt-5 h-px w-24 bg-white/40 delay-2 {isAnimated ? 'animated' : ''}"></div>
 			<p
-				class="animate-fade-in animate-slide-up mx-auto mt-6 max-w-3xl text-xl text-white delay-2 {isAnimated
+				class="animate-fade-in animate-slide-up mx-auto mt-6 max-w-2xl text-lg text-white/85 delay-2 sm:text-xl {isAnimated
 					? 'animated'
 					: ''}"
 			>
@@ -93,6 +91,11 @@
 </section>
 
 <style>
+	.dot-grid {
+		background-image: radial-gradient(circle, rgba(255,255,255,0.35) 1px, transparent 1px);
+		background-size: 28px 28px;
+	}
+
 	/* Define animations that can be applied with classes */
 	.animate-fade-in {
 		opacity: 0;
