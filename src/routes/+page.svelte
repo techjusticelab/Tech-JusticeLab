@@ -62,8 +62,8 @@
 <main>
 	<Hero {y} {sectionVisible} />
 	<Updates {sectionVisible} />
-	<WhoWeAre {sectionVisible} />
 	<OurWork {sectionVisible} />
+	<WhoWeAre {sectionVisible} />
 	<Partners {sectionVisible} />
 	<Board {sectionVisible} />
 	<GetInvolved {sectionVisible} />
