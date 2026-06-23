@@ -87,7 +87,7 @@
 		{#if sectionVisible['who-we-are']}
 			<div class="mx-auto mb-10 max-w-3xl sm:mb-16">
 				<p in:fade={{ duration: 1200 }} class="text-center text-base sm:text-lg">
-					<strong>Mission Statement:</strong> The Berkeley Technology and Justice Lab builds free and low-cost digital tools for organizations and individuals advancing positive social change. We believe that emerging technologies, when made accessible and used ethically, can be powerful instruments of meaningful change, and that those working to better our world deserve equal access to them.
+					The Berkeley Technology and Justice Lab is a 501(c)(3) non profit that builds free and low-cost digital tools for organizations and individuals advancing positive social change. We believe that emerging technologies, when made accessible and used ethically, can be powerful instruments of meaningful change, and that those working to better our world deserve equal access to them.
 				</p>
 			</div>
 
