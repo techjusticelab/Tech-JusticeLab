@@ -54,7 +54,7 @@
 					? 'animated'
 					: ''}"
 			>
-				Tech that punches up, not <span class="text-cyan-300">down</span>.
+				Tech that punches up, not <span class="text-teal-500">down</span>.
 			</h1>
 			<!-- Accent line -->
 			<div class="animate-fade-in animate-slide-up mx-auto mt-5 h-px w-24 bg-white/40 delay-2 {isAnimated ? 'animated' : ''}"></div>
