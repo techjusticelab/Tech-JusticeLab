@@ -2,10 +2,6 @@
 	import { fly } from 'svelte/transition';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
-
-	function handleMouseMove(event: MouseEvent): void {
-		// Mouse move handler can be implemented if needed
-	}
 </script>
 
 <section id="updates" class="bg-[var(--apple-white)] py-16">
@@ -14,80 +10,23 @@
 			Latest Updates
 		</h2>
 
-		<div class="flex flex-wrap justify-center gap-8">
-			{#if sectionVisible['updates']}
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					in:fly={{ y: 30, duration: 1200, delay: 300 }}
-					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
-					on:mousemove={handleMouseMove}
-				>
-					<h3 class="mb-2 text-xl font-semibold">Spring Fund Drive!</h3>
-					<p class="mb-4 text-gray-600">
-						Consider contributing to BTJL's Spring Fund Drive! Your donation goes towards our ability to continue to provide free and low cost digital tools to defense attorneys, advocates, and journalists.
-					</p>
-					<a
-						href="https://collect.crowded.me/collection/678f2022-7d29-4969-97ef-87500a1aadb8"
+		{#if sectionVisible['updates']}
+			<div
+				in:fly={{ y: 30, duration: 1200, delay: 300 }}
+				class="w-full rounded-xl bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)] p-8 text-center text-white shadow-lg sm:p-10"
+			>
+				<p class="text-xl font-semibold sm:text-2xl">
+					Thank you to everyone who contributed to our Spring Fund Drive, we reached our goal because of you!
+				</p>
+				<p class="mt-4 text-sm text-white/80 sm:text-base">
+					If you would like to continue supporting our work, please donate <a
+						href="https://collect.crowded.me/collection/b268eb33-cbbe-414c-ba6a-52e44b208d38"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
-					>Donate here</a>
-				</div>
-
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					in:fly={{ y: 30, duration: 1200, delay: 600 }}
-					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
-					on:mousemove={handleMouseMove}
-				>
-					<h3 class="mb-2 text-xl font-semibold">RJA Tool Development</h3>
-					<p class="mb-4 text-gray-600">
-						Our Racial Justice Act tool aims to help public defenders form RJA claims and is set to
-						be piloted soon.
-					</p>
-					<a
-						href="#our-work"
-						class="group inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
-						>Learn more
-						<span
-							class="h-0.5 w-0 bg-[var(--cerulean-blue)] transition-all duration-300 group-hover:w-full"
-						></span>
-					</a>
-				</div>
-
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					in:fly={{ y: 30, duration: 1200, delay: 600 }}
-					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
-					on:mousemove={handleMouseMove}
-				>
-					<h3 class="mb-2 text-xl font-semibold">CPDA Motion Bank</h3>
-					<p class="mb-4 text-gray-600">
-						The CPDA Motion Bank is launched! Now available to public defenders across California.
-					</p>
-					<a
-						href="#our-work"
-						class="group inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
-						>Learn more
-					</a>
-				</div>
-
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					in:fly={{ y: 30, duration: 1200, delay: 900 }}
-					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
-					on:mousemove={handleMouseMove}
-				>
-					<h3 class="mb-2 text-xl font-semibold">Berkeley Tech and Justice Lab in the news!</h3>
-					<p class="mb-4 text-gray-600">
-						Read about the launch of the CPDA Motion Bank Tool <a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="text-[var(--cerulean-blue)] hover:underline">here</a>!
-					</p>
-					<blockquote class="border-l-4 border-[var(--cerulean-blue)] pl-4 italic text-gray-600">
-						"Avneet Chattha, a deputy public defender in Los Angeles County, said the motions bank has saved him three to four hours every time he has used it."
-					</blockquote>
-				</div>
-
-			{/if}
-		</div>
+						class="underline hover:text-white"
+					>here</a>.
+				</p>
+			</div>
+		{/if}
 	</div>
 </section>
