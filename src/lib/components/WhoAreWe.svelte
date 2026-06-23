@@ -5,6 +5,7 @@
 	import levcol from '$lib/assets/team/levcol.jpg';
 	import carolineward from '$lib/assets/team/carolineward.jpg';
 	import zachpric from '$lib/assets/team/zachpric.jpg';
+	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -54,6 +55,15 @@
 			image: carolineward,
 			delay: 1100,
 			linkedin: null,
+			website: null
+		},
+		{
+			id: 6,
+			name: 'Ishaan Bal',
+			title: 'Machine Learning Data Scientist',
+			image: ishaanbal,
+			delay: 1200,
+			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
 			website: null
 		},
 	];
