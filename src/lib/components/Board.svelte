@@ -3,6 +3,7 @@
 	import andreacrider from '$lib/assets/team/andreacrider.jpg';
 	import billdrummond from '$lib/assets/team/billdrummond.jpg';
 	import avneetchattha from '$lib/assets/team/avneetchattha.jpg';
+	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -36,6 +37,16 @@
 			imgPosition: '95% 0%',
 			linkedin: null,
 			delay: 700
+		},
+		{
+			id: 4,
+			name: 'Ishaan Bal',
+			title: 'Machine Learning Data Scientist',
+			org: '',
+			image: ishaanbal,
+			imgPosition: 'center top',
+			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
+			delay: 900
 		}
 		// Add more board members here
 	];
