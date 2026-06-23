@@ -54,7 +54,7 @@
 					? 'animated'
 					: ''}"
 			>
-				Tech that punches <span class="word-up">up</span>, not <span class="text-teal-500 word-down">down</span>.
+				Tech that punches <span class="text-sky-300">up</span>, not <span class="text-teal-600">down</span>.
 			</h1>
 			<!-- Accent line -->
 			<div class="animate-fade-in animate-slide-up mx-auto mt-5 h-px w-24 bg-white/40 delay-2 {isAnimated ? 'animated' : ''}"></div>
@@ -94,26 +94,6 @@
 </section>
 
 <style>
-	@keyframes bob-up {
-		0%, 100% { transform: translateY(0); }
-		50% { transform: translateY(-6px); }
-	}
-
-	@keyframes bob-down {
-		0%, 100% { transform: translateY(0); }
-		50% { transform: translateY(6px); }
-	}
-
-	.word-up {
-		display: inline-block;
-		animation: bob-up 2.5s ease-in-out infinite;
-	}
-
-	.word-down {
-		display: inline-block;
-		animation: bob-down 2.5s ease-in-out infinite;
-	}
-
 	.dot-grid {
 		background-image: radial-gradient(circle, rgba(255,255,255,0.35) 1px, transparent 1px);
 		background-size: 28px 28px;
