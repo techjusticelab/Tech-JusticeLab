@@ -7,6 +7,7 @@
 	import zachpric from '$lib/assets/team/zachpric.jpg';
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
 	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
+	import johnschultz from '$lib/assets/team/johnschultz.png';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -77,6 +78,15 @@
 			image: brendanraykoff,
 			delay: 500,
 			linkedin: 'https://www.linkedin.com/in/brendan-raykoff',
+			website: null
+		},
+		{
+			id: 2,
+			name: 'John Schultz',
+			title: 'Electrical Engineering and Computer Science',
+			image: johnschultz,
+			delay: 700,
+			linkedin: 'https://www.linkedin.com/in/john-schultz-b3b59a217/',
 			website: null
 		}
 	];
