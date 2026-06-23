@@ -62,7 +62,7 @@
 					? 'animated'
 					: ''}"
 			>
-				Providing free and low-cost digital tools to organizations and individuals working to better our world.
+				Free and low-cost digital tools for the organizations and individuals making the world more just.
 			</p>
 			<div
 				class="animate-fade-in animate-slide-up mt-10 flex justify-center delay-3 {isAnimated
