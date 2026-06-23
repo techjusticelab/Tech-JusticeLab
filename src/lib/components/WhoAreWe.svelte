@@ -157,24 +157,6 @@
 					{/each}
 				</div>
 
-				<!-- Additional team information or join us section -->
-				<div class="mt-12 sm:mt-16">
-					<div in:fade={{ duration: 1000, delay: 1300 }} class="text-center">
-						<h4 class="mb-3 text-lg font-semibold text-[var(--dark-blue)] sm:text-xl">
-							Join Our Team
-						</h4>
-						<p class="mx-auto mb-6 max-w-2xl text-sm text-gray-700 sm:text-base">
-							We're always looking for passionate individuals who want to use their skills to
-							advance justice and equity.
-						</p>
-						<a
-							href="#get-involved"
-							class="inline-block rounded-md bg-[var(--cerulean-blue)] px-6 py-2 text-sm font-medium text-white transition-colors duration-300 hover:bg-[var(--dark-blue)]"
-						>
-							Join Here
-						</a>
-					</div>
-				</div>
 			</div>
 		{/if}
 	</div>
