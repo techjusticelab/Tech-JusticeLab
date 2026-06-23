@@ -87,22 +87,6 @@
 					</blockquote>
 				</div>
 
-				<!-- svelte-ignore a11y_no_static_element_interactions -->
-				<div
-					in:fly={{ y: 30, duration: 1200, delay: 1200 }}
-					class="w-full rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl md:w-[calc(33.333%-1.334rem)]"
-					on:mousemove={handleMouseMove}
-				>
-					<h3 class="mb-2 text-xl font-semibold">Internship Opportunities</h3>
-					<p class="mb-4 text-gray-600">
-						Join our team of developers working on technology for social justice.
-					</p>
-					<a
-						href="#get-involved"
-						class="group inline-flex items-center font-medium text-[var(--cerulean-blue)] hover:underline"
-						>Learn more 
-					</a>
-				</div>
 			{/if}
 		</div>
 	</div>
