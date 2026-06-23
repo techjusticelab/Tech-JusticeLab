@@ -39,6 +39,13 @@
 			buttonText: 'Explore Center',
 			buttonLink: 'https://policingequity.org/',
 			delay: 500
+		},
+		{
+			title: "ACLU of Northern California — Racial Justice Act",
+			description: "ACLU NorCal's collection of resources, guides, and advocacy materials on the California Racial Justice Act.",
+			buttonText: 'View Resources',
+			buttonLink: 'https://www.aclunorcal.org/collections/racial-justice-act/',
+			delay: 550
 		}
 	];
 </script>
