@@ -43,14 +43,14 @@
 	<div class="shape-float-6 absolute right-1/3 bottom-1/3 h-28 w-28 rounded-full bg-white/5"></div>
 	<div class="shape-float-7 absolute top-1/4 left-1/2 h-20 w-20 rotate-45 bg-white/5"></div>
 
-	<div class="relative z-10 mx-auto max-w-7xl px-4 py-32 text-center sm:px-6 lg:px-8 lg:py-44">
+	<div class="relative z-10 mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8 lg:py-44">
 		{#if sectionVisible['home'] || true}
 			<!-- Always show content but animate conditionally -->
-			<p class="animate-fade-in animate-slide-up mb-4 text-sm font-medium tracking-widest text-white/60 uppercase delay-1 {isAnimated ? 'animated' : ''}">
+			<p class="animate-fade-in animate-slide-up mb-4 text-xs font-medium tracking-widest text-white/60 uppercase delay-1 sm:text-sm {isAnimated ? 'animated' : ''}">
 				Berkeley Technology and Justice Lab
 			</p>
 			<h1
-				class="garamond animate-fade-in animate-slide-up whitespace-nowrap tracking-tight text-3xl leading-tight font-bold text-white delay-1 sm:text-4xl md:text-5xl lg:text-6xl {isAnimated
+				class="garamond animate-fade-in animate-slide-up tracking-tight text-3xl leading-tight font-bold text-white delay-1 sm:text-4xl md:text-5xl lg:text-6xl {isAnimated
 					? 'animated'
 					: ''}"
 			>
