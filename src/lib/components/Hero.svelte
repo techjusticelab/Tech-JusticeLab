@@ -51,11 +51,11 @@
 		{#if sectionVisible['home'] || true}
 			<!-- Always show content but animate conditionally -->
 			<h1
-				class="garamond animate-fade-in animate-slide-up text-4xl leading-tight font-bold text-white delay-1 md:text-5xl lg:text-6xl {isAnimated
+				class="garamond animate-fade-in animate-slide-up whitespace-nowrap text-3xl leading-tight font-bold text-white delay-1 sm:text-4xl md:text-5xl lg:text-6xl {isAnimated
 					? 'animated'
 					: ''}"
 			>
-				Tech that punches up,<br />not down.
+				Tech that punches up, not down.
 			</h1>
 			<p
 				class="animate-fade-in animate-slide-up mx-auto mt-6 max-w-3xl text-xl text-white delay-2 {isAnimated
