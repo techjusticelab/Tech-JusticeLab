@@ -6,6 +6,7 @@
 	import carolineward from '$lib/assets/team/carolineward.jpg';
 	import zachpric from '$lib/assets/team/zachpric.jpg';
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
+	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -66,6 +67,18 @@
 			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
 			website: null
 		},
+	];
+
+	const undergradFellows = [
+		{
+			id: 1,
+			name: 'Brendan Raykoff',
+			title: 'Aerospace Engineering',
+			image: brendanraykoff,
+			delay: 500,
+			linkedin: 'https://www.linkedin.com/in/brendan-raykoff',
+			website: null
+		}
 	];
 
 	// Function to calculate optimal grid columns based on team size
@@ -157,6 +170,50 @@
 					{/each}
 				</div>
 
+				<!-- Undergraduate Fellows -->
+				<h3
+					in:fade={{ duration: 1200, delay: 300 }}
+					class="garamond mb-6 mt-12 text-center text-xl font-bold text-[var(--dark-blue)] sm:mb-8 sm:text-2xl"
+				>
+					Undergraduate Fellows
+				</h3>
+
+				<div class="flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-8">
+					{#each undergradFellows as member (member.id)}
+						<div
+							in:scale={{ duration: 800, delay: member.delay }}
+							class="w-full rounded-lg bg-[var(--apple-white)] p-4 text-center shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl sm:w-[calc(50%-0.75rem)] sm:p-6 lg:w-[calc(33.333%-1.334rem)]"
+						>
+							<div class="mx-auto mb-3 h-24 w-24 overflow-hidden rounded-full sm:mb-4 sm:h-28 sm:w-28 md:h-32 md:w-32">
+								<img
+									src={member.image}
+									alt={member.name}
+									class="h-full w-full object-cover transition-all duration-700 hover:scale-110"
+								/>
+							</div>
+							<h3 class="mb-1 text-lg font-semibold sm:text-xl">{member.name}</h3>
+							<p class="text-sm text-gray-600 sm:text-base">{member.title}</p>
+
+							{#if member.linkedin || member.website}
+								<div class="mt-3 flex justify-center space-x-4">
+									{#if member.linkedin}
+										<a
+											href={member.linkedin}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="text-gray-500 transition-colors duration-300 hover:text-[var(--cerulean-blue)]"
+											title="LinkedIn Profile"
+										>
+											<svg class="h-5 w-5 sm:h-6 sm:w-6" fill="currentColor" viewBox="0 0 24 24">
+												<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+											</svg>
+										</a>
+									{/if}
+								</div>
+							{/if}
+						</div>
+					{/each}
+				</div>
 			</div>
 		{/if}
 	</div>
