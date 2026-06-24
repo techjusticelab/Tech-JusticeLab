@@ -2,7 +2,7 @@
 	import { fade, scale } from 'svelte/transition';
 	import aarya from '$lib/assets/team/arryamuk0.jpg';
 	import mayahow from '$lib/assets/team/mayahow.jpg';
-	import melodysifry from '$lib/assets/team/melodysifry.png';
+	import levcol from '$lib/assets/team/levcol.jpg';
 	import carolineward from '$lib/assets/team/carolineward.jpg';
 	import zachpric from '$lib/assets/team/zachpric.jpg';
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
@@ -43,11 +43,11 @@
 		},
 		{
 			id: 4,
-			name: 'Melody Sifry',
-			title: 'RJA Technical Lead',
-			image: melodysifry,
+			name: 'Lev Collins',
+			title: 'Software Engineer',
+			image: levcol,
 			delay: 1000,
-			linkedin: 'https://www.linkedin.com/in/melodysifry/',
+			linkedin: null,
 			website: null
 		},
 		{
