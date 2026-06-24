@@ -47,7 +47,7 @@
 			title: 'RJA Technical Lead',
 			image: melodysifry,
 			delay: 1000,
-			linkedin: null,
+			linkedin: 'https://www.linkedin.com/in/melodysifry/',
 			website: null
 		},
 		{
