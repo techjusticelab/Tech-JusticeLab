@@ -114,6 +114,24 @@
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
 							</svg>
 						</a>
+
+						<div class="mt-6 border-t border-gray-100 pt-5">
+							<p class="mb-2 text-xs font-semibold uppercase tracking-wider text-gray-400">Recent News Coverage</p>
+							<ul class="space-y-2">
+								<li>
+									<a href="https://davisvanguard.org/2026/06/california-public-defenders-motions-bank/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-[var(--cerulean-blue)] hover:text-[var(--dark-blue)] hover:underline">
+										<svg class="h-3.5 w-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+										Davis Vanguard
+									</a>
+								</li>
+								<li>
+									<a href="https://www.dailyjournal.com/articles/390468-public-defenders-relaunch-motions-bank-to-ease-workload-pressures" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-sm text-[var(--cerulean-blue)] hover:text-[var(--dark-blue)] hover:underline">
+										<svg class="h-3.5 w-3.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+										Daily Journal
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 
