@@ -127,7 +127,7 @@
 								/>
 							</svg>
 							<p class="text-sm text-gray-700 sm:text-base">
-								<strong>Existing Tools:</strong> RJA Tool, CPDA Motion Bank, PRA Machine (in beta testing), Blackout Redaction Engine (in beta testing)
+								<strong>Existing Tools:</strong> RJA Tool, Discovery & Records Intelligence, CPDA Motion Bank, PRA Machine, Blackout Redaction Engine (in beta testing)
 							</p>
 						</div>
 						<div class="flex items-start">
