@@ -53,29 +53,29 @@
 		},
 		{
 			id: 5,
-			name: 'Caroline Ward',
-			title: 'Development Coordinator',
-			image: carolineward,
+			name: 'Ishaan Bal',
+			title: 'Machine Learning Data Scientist',
+			image: ishaanbal,
 			delay: 1100,
-			linkedin: null,
+			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
 			website: null
 		},
 		{
 			id: 6,
-			name: 'Adiella Kessler',
-			title: 'Community Engagement Coordinator',
-			image: adiellakessler,
+			name: 'Caroline Ward',
+			title: 'Development Coordinator',
+			image: carolineward,
 			delay: 1200,
-			linkedin: 'https://www.linkedin.com/in/adiella-kessler/',
+			linkedin: null,
 			website: null
 		},
 		{
 			id: 7,
-			name: 'Ishaan Bal',
-			title: 'Machine Learning Data Scientist',
-			image: ishaanbal,
+			name: 'Adiella Kessler',
+			title: 'Community Engagement Coordinator',
+			image: adiellakessler,
 			delay: 1300,
-			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
+			linkedin: 'https://www.linkedin.com/in/adiella-kessler/',
 			website: null
 		},
 	];
