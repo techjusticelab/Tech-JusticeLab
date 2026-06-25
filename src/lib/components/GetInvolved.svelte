@@ -150,13 +150,6 @@
 						</div>
 					</div>
 
-					<p class="mb-6 text-sm text-gray-700 sm:text-base">
-						Fill out our partnership interest form and we'll get back to you as soon as possible.
-						You can also contact us directly at <a
-							href="mailto:info@techjusticelab.org"
-							class="text-[var(--cerulean-blue)] hover:underline">info@techjusticelab.org</a
-						>
-					</p>
 
 					<div class="flex justify-center sm:justify-start">
 						<a
