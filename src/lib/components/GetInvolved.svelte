@@ -16,10 +16,45 @@
 			Get Involved
 		</h2>
 
-		<div class="grid grid-cols-1 gap-6 sm:gap-10 md:grid-cols-2">
+		<div class="grid grid-cols-1 gap-6 sm:gap-10 md:grid-cols-3">
 			{#if sectionVisible['get-involved']}
+				<!-- Volunteer Card -->
 				<div
-					in:fly={{ x: -50, duration: 1400, delay: 300 }}
+					in:fly={{ x: -50, duration: 1400, delay: 200 }}
+					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+				>
+					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
+						Volunteer
+					</h3>
+					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
+						The Berkeley Tech and Justice Lab is an all volunteer organization. If you are interested in volunteering please reach out!
+					</p>
+
+					<div class="mb-4">
+						<p class="mb-2 text-sm font-semibold text-[var(--dark-blue)] sm:text-base">Hiring:</p>
+						<ul class="ml-5 list-disc space-y-1 text-sm text-gray-700 sm:text-base">
+							<li>Technical roles</li>
+							<li>Non-technical roles</li>
+						</ul>
+					</div>
+
+					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
+					<div class="flex justify-center sm:justify-start">
+						<a
+							href="mailto:info@techjusticelab.org?subject=Volunteer Application&body=Please attach your resume."
+							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
+						>
+							<span class="relative z-10">Email Your Resume</span>
+							<span
+								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
+							></span>
+						</a>
+					</div>
+				</div>
+
+				<!-- Undergraduate Fellowships Card -->
+				<div
+					in:fly={{ y: 50, duration: 1400, delay: 400 }}
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
 					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
@@ -33,59 +68,26 @@
 
 					<div class="mb-4 space-y-3">
 						<div class="flex items-start">
-							<svg
-								class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-								/>
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">
-								Gain experience in tech development
-							</p>
+							<p class="text-sm text-gray-700 sm:text-base">Gain experience in tech development</p>
 						</div>
 						<div class="flex items-start">
-							<svg
-								class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-								/>
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
 							<p class="text-sm text-gray-700 sm:text-base">Work with experts across fields</p>
 						</div>
 						<div class="flex items-start">
-							<svg
-								class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-								/>
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">
-								Create tools that make a real difference
-							</p>
+							<p class="text-sm text-gray-700 sm:text-base">Create tools that make a real difference</p>
 						</div>
 					</div>
 
+					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
 					<div class="flex justify-center sm:justify-start">
 						<a
 							href="mailto:info@techjusticelab.org?subject=Undergraduate Fellowship Application&body=Please attach your resume."
@@ -187,7 +189,9 @@
 						></span>
 					</a>
 					<a
-						href="#"
+						href="https://collect.crowded.me/collection/b268eb33-cbbe-414c-ba6a-52e44b208d38"
+						target="_blank"
+						rel="noopener noreferrer"
 						class="group relative overflow-hidden rounded-md border-2 border-[var(--cerulean-blue)] bg-transparent px-6 py-2.5 text-sm font-medium text-[var(--cerulean-blue)] transition-all duration-300 hover:bg-[var(--cerulean-blue)]/10"
 					>
 						<span class="relative z-10">Donate</span>
