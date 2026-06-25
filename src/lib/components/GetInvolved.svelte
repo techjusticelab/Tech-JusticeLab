@@ -23,11 +23,11 @@
 					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
 					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
-						Internships
+						Undergraduate Fellowships
 					</h3>
 					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
-						We're looking for passionate individuals to join our team as interns. Whether you're a
-						law student, technical developer, designer, or researcher, you can help us build digital
+						We are always looking for interested students to join our team as fellows. Whether you're a
+						technical developer, designer, or researcher, you can help us build digital
 						tools for justice.
 					</p>
 
@@ -47,7 +47,7 @@
 								/>
 							</svg>
 							<p class="text-sm text-gray-700 sm:text-base">
-								Gain experience in legal tech development
+								Gain experience in tech development
 							</p>
 						</div>
 						<div class="flex items-start">
@@ -64,7 +64,7 @@
 									d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
 								/>
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Work with criminal justice experts</p>
+							<p class="text-sm text-gray-700 sm:text-base">Work with experts across fields</p>
 						</div>
 						<div class="flex items-start">
 							<svg
@@ -88,12 +88,10 @@
 
 					<div class="flex justify-center sm:justify-start">
 						<a
-							href={internFormUrl}
-							target="_blank"
-							rel="noopener noreferrer"
+							href="mailto:info@techjusticelab.org?subject=Undergraduate Fellowship Application&body=Please attach your resume."
 							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
 						>
-							<span class="relative z-10">Apply for Internship</span>
+							<span class="relative z-10">Email Your Resume</span>
 							<span
 								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
 							></span>
