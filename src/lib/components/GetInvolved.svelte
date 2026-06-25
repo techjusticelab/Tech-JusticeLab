@@ -21,7 +21,7 @@
 				<!-- Volunteer Card -->
 				<div
 					in:fly={{ x: -50, duration: 1400, delay: 200 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
 					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
 						Volunteer
@@ -59,6 +59,7 @@
 						</ul>
 					</div>
 
+					<div class="mt-auto">
 					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
 					<div class="flex justify-center sm:justify-start">
 						<a
@@ -71,12 +72,13 @@
 							></span>
 						</a>
 					</div>
+					</div>
 				</div>
 
 				<!-- Undergraduate Fellowships Card -->
 				<div
 					in:fly={{ y: 50, duration: 1400, delay: 400 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
 					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
 						Undergraduate Fellowships
@@ -108,6 +110,7 @@
 						</div>
 					</div>
 
+					<div class="mt-auto">
 					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
 					<div class="flex justify-center sm:justify-start">
 						<a
@@ -120,11 +123,12 @@
 							></span>
 						</a>
 					</div>
+					</div>
 				</div>
 
 				<div
 					in:fly={{ x: 50, duration: 1400, delay: 600 }}
-					class="rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
 				>
 					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
 						Partner with us
@@ -173,7 +177,7 @@
 						</div>
 					</div>
 
-
+					<div class="mt-auto">
 					<div class="flex justify-center sm:justify-start">
 						<a
 							href="mailto:info@techjusticelab.org?subject=Partnership Inquiry"
@@ -184,6 +188,7 @@
 								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
 							></span>
 						</a>
+					</div>
 					</div>
 				</div>
 			{/if}
