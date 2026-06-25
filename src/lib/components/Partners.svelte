@@ -44,7 +44,7 @@
 			id: 5,
 			name: 'Berkeley Homeless Union',
 			image: bhu,
-			link: '#partners',
+			link: 'https://www.berkeleyhomelessunion.org',
 			delay: 700
 		}
 		// {
