@@ -30,6 +30,27 @@
 						The Berkeley Tech and Justice Lab is an all volunteer organization. If you are interested in volunteering please reach out!
 					</p>
 
+					<div class="mb-4 space-y-3">
+						<div class="flex items-start">
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+							</svg>
+							<p class="text-sm text-gray-700 sm:text-base">Help build tools for social justice</p>
+						</div>
+						<div class="flex items-start">
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+							</svg>
+							<p class="text-sm text-gray-700 sm:text-base">Flexible remote and in-person opportunities</p>
+						</div>
+						<div class="flex items-start">
+							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+							</svg>
+							<p class="text-sm text-gray-700 sm:text-base">No experience required for non-technical roles</p>
+						</div>
+					</div>
+
 					<div class="mb-4">
 						<p class="mb-2 text-sm font-semibold text-[var(--dark-blue)] sm:text-base">Hiring:</p>
 						<ul class="ml-5 list-disc space-y-1 text-sm text-gray-700 sm:text-base">
