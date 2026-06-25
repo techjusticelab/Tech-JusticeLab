@@ -7,6 +7,7 @@
 	import zachpric from '$lib/assets/team/zachpric.jpg';
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
 	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
+	import adiellakessler from '$lib/assets/team/adiellakessler.png';
 	import johnschultz from '$lib/assets/team/johnschultz.png';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
@@ -61,10 +62,19 @@
 		},
 		{
 			id: 6,
+			name: 'Adiella Kessler',
+			title: 'Community Engagement Coordinator',
+			image: adiellakessler,
+			delay: 1200,
+			linkedin: 'https://www.linkedin.com/in/adiella-kessler/',
+			website: null
+		},
+		{
+			id: 7,
 			name: 'Ishaan Bal',
 			title: 'Machine Learning Data Scientist',
 			image: ishaanbal,
-			delay: 1200,
+			delay: 1300,
 			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
 			website: null
 		},
