@@ -6,6 +6,7 @@
 	import cpda from '$lib/assets/partners/cpda.jpg';
 	import laccpd from '$lib/assets/partners/lapd.jpg';
 	import dailycal from '$lib/assets/partners/dailycal.png';
+	import bhu from '$lib/assets/partners/bhu.png';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -38,6 +39,13 @@
 			image: dailycal,
 			link: 'https://www.dailycal.org/',
 			delay: 600
+		},
+		{
+			id: 5,
+			name: 'Berkeley Homeless Union',
+			image: bhu,
+			link: '#partners',
+			delay: 700
 		}
 		// {
 		// 	id: 3,
