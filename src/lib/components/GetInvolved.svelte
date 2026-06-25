@@ -145,7 +145,7 @@
 								/>
 							</svg>
 							<p class="text-sm text-gray-700 sm:text-base">
-								<strong>New Tools:</strong> Let us know your needs and ideas
+								<strong>New Tools:</strong> We build free and low-cost tools for organizations doing good work. Reach out with an idea or need and let's work together!
 							</p>
 						</div>
 					</div>
@@ -160,12 +160,10 @@
 
 					<div class="flex justify-center sm:justify-start">
 						<a
-							href={partnerFormUrl}
-							target="_blank"
-							rel="noopener noreferrer"
+							href="mailto:info@techjusticelab.org?subject=Partnership Inquiry"
 							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
 						>
-							<span class="relative z-10">Submit Partnership Interest</span>
+							<span class="relative z-10">Contact Us</span>
 							<span
 								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
 							></span>
