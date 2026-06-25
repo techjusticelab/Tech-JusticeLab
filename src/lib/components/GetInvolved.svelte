@@ -84,8 +84,10 @@
 						Undergraduate Fellowships
 					</h3>
 					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
-						We are always looking for interested students to join our team as fellows. Whether you're a
-						technical developer, designer, or researcher, you can help us build digital
+						We are always looking for interested students to join our team as fellows.
+					</p>
+					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
+						Whether you're a technical developer, designer, or researcher, you can help us build digital
 						tools for justice.
 					</p>
 
