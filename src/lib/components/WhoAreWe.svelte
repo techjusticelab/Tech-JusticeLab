@@ -35,47 +35,47 @@
 		// Add more team members by adding to this array
 		{
 			id: 3,
+			name: 'Adiella Kessler',
+			title: 'Operations and Development Director',
+			image: adiellakessler,
+			delay: 900,
+			linkedin: 'https://www.linkedin.com/in/adiella-kessler/',
+			website: null
+		},
+		{
+			id: 4,
 			name: 'Zachary Pricz',
 			title: 'Software Engineer',
 			image: zachpric,
-			delay: 900,
+			delay: 1000,
 			linkedin: 'https://www.linkedin.com/in/zpricz',
 			website: 'https://zjpricz100.github.io'
 		},
 		{
-			id: 4,
+			id: 5,
 			name: 'Melody Sifry',
 			title: 'RJA Technical Lead',
 			image: melodysifry,
-			delay: 1000,
+			delay: 1100,
 			linkedin: 'https://www.linkedin.com/in/melodysifry/',
 			website: null
 		},
 		{
-			id: 5,
+			id: 6,
 			name: 'Ishaan Bal',
 			title: 'Machine Learning Data Scientist',
 			image: ishaanbal,
-			delay: 1100,
+			delay: 1200,
 			linkedin: 'https://www.linkedin.com/in/ishaan-bal-211b031b0',
 			website: null
 		},
 		{
-			id: 6,
+			id: 7,
 			name: 'Caroline Ward',
 			title: 'Development Coordinator',
 			image: carolineward,
-			delay: 1200,
-			linkedin: null,
-			website: null
-		},
-		{
-			id: 7,
-			name: 'Adiella Kessler',
-			title: 'Community Engagement Coordinator',
-			image: adiellakessler,
 			delay: 1300,
-			linkedin: 'https://www.linkedin.com/in/adiella-kessler/',
+			linkedin: null,
 			website: null
 		},
 	];
