@@ -9,6 +9,7 @@
 	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
 	import adiellakessler from '$lib/assets/team/adiellakessler.png';
 	import johnschultz from '$lib/assets/team/johnschultz.png';
+	import aralynconnolly from '$lib/assets/team/aralynconnolly.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -97,6 +98,15 @@
 			image: johnschultz,
 			delay: 700,
 			linkedin: 'https://www.linkedin.com/in/john-schultz-b3b59a217/',
+			website: null
+		},
+		{
+			id: 3,
+			name: 'Aralyn M. Connolly',
+			title: 'Undergraduate Fellow',
+			image: aralynconnolly,
+			delay: 900,
+			linkedin: 'https://www.linkedin.com/in/aralynconnolly',
 			website: null
 		}
 	];
