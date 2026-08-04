@@ -103,7 +103,7 @@
 		{
 			id: 3,
 			name: 'Aralyn M. Connolly',
-			title: 'Undergraduate Fellow',
+			title: 'Data Science and Public Policy',
 			image: aralynconnolly,
 			delay: 900,
 			linkedin: 'https://www.linkedin.com/in/aralynconnolly',
