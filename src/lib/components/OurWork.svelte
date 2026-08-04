@@ -205,9 +205,43 @@
 					</div>
 				</div>
 
-				<!-- PRA Machine Card -->
+				<!-- CaseDigest Card -->
 				<div
 					in:fly={{ y: 50, duration: 1200, delay: 1600 }}
+					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
+				>
+					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
+					<div class="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)]"></div>
+
+					<div class="relative p-8">
+						<div class="mb-4 inline-flex rounded-lg bg-[var(--cerulean-blue)]/10 p-3">
+							<svg class="h-6 w-6 text-[var(--cerulean-blue)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"></path>
+							</svg>
+						</div>
+
+						<h3 class="mb-3 text-xl font-bold text-[var(--dark-blue)]">
+							CaseDigest
+						</h3>
+						<p class="mb-6 text-gray-600 leading-relaxed">
+							The Berkeley Technology & Justice Lab has partnered with Aaron Zagory at the New Orleans Public Defenders Office to develop CaseDigest, a local platform for managing large, complex cases. The CaseDigest app lives within client folders directly on OPD's servers, walled from the internet and without dependencies. Attorneys drop client files into the tool (PDFs, video files, screenshots, etc.) and can create events, mark individuals across time/documents, and organize strategy. This schema allows attorneys to track their case notes with centralization and search capabilities. CaseDigest acts as a smart, simple case management tool that allows attorneys to develop strategy locally.
+						</p>
+
+						<a
+							href="mailto:info@techjusticelab.org?subject=CaseDigest Interest"
+							class="inline-flex items-center text-sm font-medium text-[var(--cerulean-blue)] transition-colors hover:text-[var(--dark-blue)]"
+						>
+							<span>If your office or organization is interested contact us <span class="underline">here</span></span>
+							<svg class="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+
+				<!-- PRA Machine Card -->
+				<div
+					in:fly={{ y: 50, duration: 1200, delay: 1800 }}
 					class="group relative overflow-hidden rounded-xl bg-white shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl"
 				>
 					<div class="absolute inset-0 bg-gradient-to-br from-[var(--cerulean-blue)]/5 to-transparent"></div>
