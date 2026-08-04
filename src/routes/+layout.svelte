@@ -23,11 +23,12 @@
 		<div class="flex h-16 justify-between">
 			<div class="flex">
 				<div class="flex flex-shrink-0 items-center">
-					<a href="#home">
+					<a href="#home" class="flex items-center gap-2">
+						<img src="/btjl_logo.png" alt="Berkeley Tech and Justice Lab" class="h-10 w-10 object-contain" />
 						<h1 class="garamond logo-color text-sm font-bold md:text-xl lg:text-2xl">
 							Berkeley Technology and Justice Lab
-						</h1></a
-					>
+						</h1>
+					</a>
 				</div>
 			</div>
 			<!-- Changed this div to use ml-auto to push it to the right -->
