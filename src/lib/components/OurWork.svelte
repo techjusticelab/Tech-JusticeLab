@@ -224,7 +224,7 @@
 							CaseDigest
 						</h3>
 						<p class="mb-6 text-gray-600 leading-relaxed">
-							The Berkeley Technology & Justice Lab has partnered with Aaron Zagory at the New Orleans Public Defenders Office to develop CaseDigest, a local platform for managing large, complex cases. The CaseDigest app lives within client folders directly on OPD's servers, walled from the internet and without dependencies. Attorneys drop client files into the tool (PDFs, video files, screenshots, etc.) and can create events, mark individuals across time/documents, and organize strategy. This schema allows attorneys to track their case notes with centralization and search capabilities. CaseDigest acts as a smart, simple case management tool that allows attorneys to develop strategy locally.
+							The Berkeley Technology & Justice Lab has partnered with Aaron Zagory at the Orleans Public Defenders Office, Conflicts Division to develop CaseDigest, a local platform for managing large, complex cases. The CaseDigest app lives within client folders directly on OPD's servers, walled from the internet and without dependencies. Attorneys drop client files into the tool (PDFs, video files, screenshots, etc.) and can create events, mark individuals across time/documents, and organize strategy. This schema allows attorneys to track their case notes with centralization and search capabilities. CaseDigest acts as a smart, simple case management tool that allows attorneys to develop strategy locally.
 						</p>
 
 						<a
