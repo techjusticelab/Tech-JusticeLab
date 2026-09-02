@@ -96,7 +96,7 @@
 <!-- Footer -->
 <footer class="footer py-12 text-white">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-4">
+		<div class="grid grid-cols-1 gap-8 md:grid-cols-5">
 			<div class="col-span-1 md:col-span-2">
 				<h3 class="garamond mb-4 text-xl font-bold">Berkeley Technology and Justice Lab</h3>
 				<p class="mb-4 max-w-md">
@@ -149,6 +149,18 @@
 					<li><a href="#our-work" class="hover:text-gray-300">Our Work</a></li>
 					<li><a href="#resources" class="hover:text-gray-300">Resources</a></li>
 					<li><a href="#get-involved" class="hover:text-gray-300">Get Involved</a></li>
+				</ul>
+			</div>
+
+			<div>
+				<h3 class="mb-4 text-lg font-semibold">Contact</h3>
+				<ul class="space-y-2 text-sm text-gray-300">
+					<li>
+						<a href="mailto:info@techjusticelab.org" class="hover:text-white">info@techjusticelab.org</a>
+					</li>
+					<li>2170 Dwight Ave</li>
+					<li>Berkeley, CA 94704</li>
+					<li class="pt-2 text-gray-400">EIN: 36-5162834</li>
 				</ul>
 			</div>
 
