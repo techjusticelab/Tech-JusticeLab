@@ -72,6 +72,7 @@
 								<div class="">
 									<p class="font-medium">Location</p>
 									<p class="text-gray-600">University of California, Berkeley</p>
+									<p class="text-gray-600">2170 Dwight Ave, Berkeley, CA 94704</p>
 								</div>
 							</div>
 						</div>
