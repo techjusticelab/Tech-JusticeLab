@@ -8,7 +8,6 @@
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
 	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
 	import adiellakessler from '$lib/assets/team/adiellakessler.png';
-	import johnschultz from '$lib/assets/team/johnschultz.png';
 	import aralynconnolly from '$lib/assets/team/aralynconnolly.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
@@ -82,15 +81,6 @@
 	];
 
 	const undergradFellows = [
-		{
-			id: 1,
-			name: 'Brendan Raykoff',
-			title: 'Aerospace Engineering',
-			image: brendanraykoff,
-			delay: 500,
-			linkedin: 'https://www.linkedin.com/in/brendan-raykoff',
-			website: null
-		},
 		{
 			id: 2,
 			name: 'John Schultz',
