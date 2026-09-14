@@ -6,8 +6,8 @@
 	import carolineward from '$lib/assets/team/carolineward.jpg';
 	import zachpric from '$lib/assets/team/zachpric.jpg';
 	import ishaanbal from '$lib/assets/team/ishaanbal.jpg';
-	import brendanraykoff from '$lib/assets/team/brendanraykoff.jpg';
 	import adiellakessler from '$lib/assets/team/adiellakessler.png';
+	import johnschultz from '$lib/assets/team/johnschultz.png';
 	import aralynconnolly from '$lib/assets/team/aralynconnolly.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
