@@ -16,12 +16,7 @@
 				class="w-full rounded-xl bg-gradient-to-r from-[var(--cerulean-blue)] to-[var(--dark-blue)] p-8 text-center text-white shadow-lg sm:p-10"
 			>
 				<p class="text-xl font-semibold sm:text-2xl">
-					The Berkeley Tech and Justice Lab has set up shop! We are newly housed in office space in the Solidarity Collective on Dwight Way. <a
-						href="https://collect.crowded.me/collection/b268eb33-cbbe-414c-ba6a-52e44b208d38"
-						target="_blank"
-						rel="noopener noreferrer"
-						class="underline hover:text-white"
-					>Donate today</a> to support in person coalition building!
+					The Berkeley Tech and Justice Lab has set up shop! We are newly housed in office space in the <a href="https://soco.place/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Solidarity Collective</a> on Dwight Way. <a href="https://collect.crowded.me/collection/b268eb33-cbbe-414c-ba6a-52e44b208d38" target="_blank" rel="noopener noreferrer" class="underline hover:text-white">Donate today</a> to support our in person coalition building!
 				</p>
 			</div>
 		{/if}
