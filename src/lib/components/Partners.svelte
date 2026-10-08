@@ -7,6 +7,7 @@
 	import laccpd from '$lib/assets/partners/lapd.jpg';
 	import dailycal from '$lib/assets/partners/dailycal.png';
 	import bhu from '$lib/assets/partners/bhu.png';
+	import aijc from '$lib/assets/partners/aijc.jpg';
 
 	export let sectionVisible: { [key: string]: boolean } = {};
 
@@ -46,6 +47,13 @@
 			image: bhu,
 			link: 'https://www.berkeleyhomelessunion.org',
 			delay: 700
+		},
+		{
+			id: 6,
+			name: 'AI and Justice Consortium',
+			image: aijc,
+			link: 'https://www.aiandjustice.org',
+			delay: 800
 		}
 		// {
 		// 	id: 3,
