@@ -53,7 +53,8 @@
 			name: 'AI and Justice Consortium',
 			image: aijc,
 			link: 'https://www.aiandjustice.org',
-			delay: 800
+			delay: 800,
+			contain: true
 		}
 		// {
 		// 	id: 3,
@@ -99,7 +100,7 @@
 									<img
 										src={partner.image}
 										alt={partner.name}
-										class="h-full w-full object-cover transition-all duration-500 hover:scale-110"
+										class="h-full w-full transition-all duration-500 hover:scale-110 {partner.contain ? 'object-contain' : 'object-cover'}"
 									/>
 									<div
 										class="absolute inset-0 bg-gradient-to-b from-transparent to-[var(--cerulean-blue)]/10 opacity-0 transition-opacity duration-300 hover:opacity-100"
