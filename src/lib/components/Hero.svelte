@@ -22,26 +22,20 @@
 
 <section
 	id="home"
-	class="relative overflow-hidden bg-gradient-to-br from-[var(--dark-blue)] via-[#1a5f8a] to-[var(--cerulean-blue)]"
+	class="relative overflow-hidden"
 	on:mousemove={handleMouseMove}
 >
-	<!-- Parallax depth layer -->
+	<!-- Photo background with parallax -->
 	<div
-		class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"
-		style="transform: translateY({y * -0.1}px);"
+		class="absolute inset-0 bg-cover bg-center"
+		style="background-image: url('/hero-justice.jpg'); transform: translateY({y * -0.15}px); top: -60px; bottom: -60px;"
 	></div>
 
-	<!-- Dot grid texture overlay -->
-	<div class="dot-grid absolute inset-0 opacity-20"></div>
+	<!-- Dark overlay so text stays readable -->
+	<div class="absolute inset-0 bg-gradient-to-r from-[var(--dark-blue)]/80 via-[var(--dark-blue)]/60 to-[var(--cerulean-blue)]/40"></div>
 
-	<!-- Floating shapes -->
-	<div class="shape-float-1 absolute top-20 left-10 h-20 w-20 rounded-full bg-white/5"></div>
-	<div class="shape-float-2 absolute right-10 bottom-40 h-32 w-32 rounded-full bg-white/5"></div>
-	<div class="shape-float-3 absolute top-1/3 right-1/4 h-16 w-16 rounded-full bg-white/5"></div>
-	<div class="shape-float-4 absolute bottom-20 left-1/4 h-24 w-24 rounded-full bg-white/5"></div>
-	<div class="shape-float-5 absolute top-1/2 left-1/3 h-12 w-12 rounded-full bg-white/5"></div>
-	<div class="shape-float-6 absolute right-1/3 bottom-1/3 h-28 w-28 rounded-full bg-white/5"></div>
-	<div class="shape-float-7 absolute top-1/4 left-1/2 h-20 w-20 rotate-45 bg-white/5"></div>
+	<!-- Dot grid texture overlay -->
+	<div class="dot-grid absolute inset-0 opacity-10"></div>
 
 	<div class="relative z-10 mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8 lg:py-44">
 		{#if sectionVisible['home'] || true}
