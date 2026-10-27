@@ -75,9 +75,11 @@
 
 <section id="partners" class="bg-white py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+		<p class="mb-3 text-center text-xs font-medium tracking-widest text-[var(--cerulean-blue)]/70 uppercase">Who We Work With</p>
 		<h2 class="garamond mb-4 text-center text-2xl font-bold text-[var(--dark-blue)] sm:text-3xl">
 			Partners
 		</h2>
+		<div class="mx-auto mb-6 h-px w-16 bg-[var(--cerulean-blue)]/30"></div>
 		<p class="mb-6 text-center text-base sm:mb-10 sm:text-lg">
 			The Berkeley Technology and Justice Lab team is thankful for all of our amazing partners
 		</p>

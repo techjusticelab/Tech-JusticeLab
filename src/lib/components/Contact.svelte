@@ -6,9 +6,11 @@
 
 <section id="contact" class="bg-[var(--apple-white)] py-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<h2 class="garamond mb-10 text-center text-3xl font-bold text-[var(--dark-blue)]">
+		<p class="mb-3 text-center text-xs font-medium tracking-widest text-[var(--cerulean-blue)]/70 uppercase">Reach Out</p>
+		<h2 class="garamond mb-4 text-center text-3xl font-bold text-[var(--dark-blue)]">
 			Contact Us
 		</h2>
+		<div class="mx-auto mb-10 h-px w-16 bg-[var(--cerulean-blue)]/30"></div>
 
 		<div
 			class="mx-auto max-w-3xl rounded-lg bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"

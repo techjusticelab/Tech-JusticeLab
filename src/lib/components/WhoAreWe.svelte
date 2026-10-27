@@ -113,9 +113,11 @@
 
 <section id="who-we-are" class="bg-white py-12 sm:py-16">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<h2 class="garamond mb-6 text-center text-2xl font-bold text-[var(--dark-blue)] sm:mb-8 sm:text-3xl">
+		<p class="mb-3 text-center text-xs font-medium tracking-widest text-[var(--cerulean-blue)]/70 uppercase">The People Behind the Work</p>
+		<h2 class="garamond mb-4 text-center text-2xl font-bold text-[var(--dark-blue)] sm:text-3xl">
 			Our Team
 		</h2>
+		<div class="mx-auto mb-8 h-px w-16 bg-[var(--cerulean-blue)]/30"></div>
 
 		{#if sectionVisible['who-we-are']}
 			<div class="mx-auto max-w-6xl">

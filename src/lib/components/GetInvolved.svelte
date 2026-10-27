@@ -8,227 +8,210 @@
 	const partnerFormUrl = 'https://forms.gle/NERVDUmWi6q2RLb78';
 </script>
 
-<section id="get-involved" class="bg-[var(--apple-white)] py-12 sm:py-16">
-	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+<section id="get-involved" class="relative overflow-hidden bg-gradient-to-br from-[var(--dark-blue)] via-[#0d1a8a] to-[#1a5f8a] py-12 sm:py-16">
+	<!-- Dot grid texture -->
+	<div class="dot-grid absolute inset-0 opacity-10"></div>
+
+	<div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<h2
-			class="garamond mb-8 text-center text-2xl font-bold text-[var(--dark-blue)] sm:mb-10 sm:text-3xl"
+			class="garamond mb-2 text-center text-2xl font-bold text-white sm:mb-3 sm:text-3xl"
 		>
 			Get Involved
 		</h2>
+		<p class="mb-8 text-center text-sm text-white/60 sm:mb-10 sm:text-base">Join us in building technology for justice</p>
 
-		<div class="grid grid-cols-1 gap-6 sm:gap-10 md:grid-cols-3">
+		<div class="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-3">
 			{#if sectionVisible['get-involved']}
 				<!-- Volunteer Card -->
 				<div
 					in:fly={{ x: -50, duration: 1400, delay: 200 }}
-					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-xl border border-white/20 bg-white/10 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:bg-white/15 hover:shadow-xl sm:p-8"
 				>
-					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
+					<h3 class="mb-3 text-xl font-semibold text-sky-300 sm:mb-4 sm:text-2xl">
 						Volunteer
 					</h3>
-					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
+					<p class="mb-4 text-sm text-white/80 sm:mb-6 sm:text-base">
 						The Berkeley Tech and Justice Lab is an all volunteer organization. If you are interested in volunteering please reach out!
 					</p>
 
 					<div class="mb-4 space-y-3">
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Help build tools for social justice</p>
+							<p class="text-sm text-white/80 sm:text-base">Help build tools for social justice</p>
 						</div>
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Flexible remote and in-person opportunities</p>
+							<p class="text-sm text-white/80 sm:text-base">Flexible remote and in-person opportunities</p>
 						</div>
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">No experience required for non-technical roles</p>
+							<p class="text-sm text-white/80 sm:text-base">No experience required for non-technical roles</p>
 						</div>
 					</div>
 
 					<div class="mb-4">
-						<p class="mb-2 text-sm font-semibold text-[var(--dark-blue)] sm:text-base">Hiring:</p>
-						<ul class="ml-5 list-disc space-y-1 text-sm text-gray-700 sm:text-base">
+						<p class="mb-2 text-sm font-semibold text-white sm:text-base">Hiring:</p>
+						<ul class="ml-5 list-disc space-y-1 text-sm text-white/80 sm:text-base">
 							<li>Technical roles</li>
 							<li>Non-technical roles</li>
 						</ul>
 					</div>
 
 					<div class="mt-auto">
-					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
-					<div class="flex justify-center sm:justify-start">
-						<a
-							href="mailto:info@techjusticelab.org?subject=Volunteer Application&body=Please attach your resume."
-							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
-						>
-							<span class="relative z-10">Email Your Resume</span>
-							<span
-								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
-							></span>
-						</a>
-					</div>
+						<p class="mb-4 text-sm font-medium text-white/70 sm:text-base">Email your resume to us today!</p>
+						<div class="flex justify-center sm:justify-start">
+							<a
+								href="mailto:info@techjusticelab.org?subject=Volunteer Application&body=Please attach your resume."
+								class="group relative overflow-hidden rounded-md bg-white px-6 py-3 text-sm font-medium text-[var(--dark-blue)] transition-all duration-300 hover:shadow-lg"
+							>
+								<span class="relative z-10">Email Your Resume</span>
+								<span class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-black/5 transition-transform duration-500 group-hover:scale-x-100"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 
 				<!-- Undergraduate Fellowships Card -->
 				<div
 					in:fly={{ y: 50, duration: 1400, delay: 400 }}
-					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-xl border border-white/20 bg-white/10 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:bg-white/15 hover:shadow-xl sm:p-8"
 				>
-					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
+					<h3 class="mb-3 text-xl font-semibold text-sky-300 sm:mb-4 sm:text-2xl">
 						Undergraduate Fellowships
 					</h3>
-					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
+					<p class="mb-4 text-sm text-white/80 sm:mb-6 sm:text-base">
 						We are always looking for interested students to join our team as fellows.
 					</p>
-					<p class="mb-4 text-sm text-gray-700 sm:mb-6 sm:text-base">
+					<p class="mb-4 text-sm text-white/80 sm:mb-6 sm:text-base">
 						Whether you're a technical developer, designer, or researcher, you can help us build digital
 						tools for justice.
 					</p>
 
 					<div class="mb-4 space-y-3">
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Gain experience in tech development</p>
+							<p class="text-sm text-white/80 sm:text-base">Gain experience in tech development</p>
 						</div>
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Work with experts across fields</p>
+							<p class="text-sm text-white/80 sm:text-base">Work with experts across fields</p>
 						</div>
 						<div class="flex items-start">
-							<svg class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">Create tools that make a real difference</p>
+							<p class="text-sm text-white/80 sm:text-base">Create tools that make a real difference</p>
 						</div>
 					</div>
 
 					<div class="mt-auto">
-					<p class="mb-4 text-sm font-medium text-gray-700 sm:text-base">Email your resume to us today!</p>
-					<div class="flex justify-center sm:justify-start">
-						<a
-							href="mailto:info@techjusticelab.org?subject=Undergraduate Fellowship Application&body=Please attach your resume."
-							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
-						>
-							<span class="relative z-10">Email Your Resume</span>
-							<span
-								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
-							></span>
-						</a>
-					</div>
+						<p class="mb-4 text-sm font-medium text-white/70 sm:text-base">Email your resume to us today!</p>
+						<div class="flex justify-center sm:justify-start">
+							<a
+								href="mailto:info@techjusticelab.org?subject=Undergraduate Fellowship Application&body=Please attach your resume."
+								class="group relative overflow-hidden rounded-md bg-white px-6 py-3 text-sm font-medium text-[var(--dark-blue)] transition-all duration-300 hover:shadow-lg"
+							>
+								<span class="relative z-10">Email Your Resume</span>
+								<span class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-black/5 transition-transform duration-500 group-hover:scale-x-100"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 
+				<!-- Partner Card -->
 				<div
 					in:fly={{ x: 50, duration: 1400, delay: 600 }}
-					class="flex flex-col rounded-lg bg-white p-6 shadow-md transition-all duration-300 hover:shadow-xl sm:p-8"
+					class="flex flex-col rounded-xl border border-white/20 bg-white/10 p-6 shadow-lg backdrop-blur-sm transition-all duration-300 hover:bg-white/15 hover:shadow-xl sm:p-8"
 				>
-					<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
+					<h3 class="mb-3 text-xl font-semibold text-sky-300 sm:mb-4 sm:text-2xl">
 						Partner with us
 					</h3>
-					<p class="mb-3 text-sm text-gray-700 sm:mb-4 sm:text-base">
+					<p class="mb-3 text-sm text-white/80 sm:mb-4 sm:text-base">
 						Interested in integrating one of our existing tools into your organization or developing
 						a new tool together? We'd love to hear from you!
 					</p>
 
 					<div class="mb-4 space-y-3">
 						<div class="flex items-start">
-							<svg
-								class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M5 13l4 4L19 7"
-								/>
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">
-								<strong>Existing Tools:</strong> RJA Tool, Discovery & Records Intelligence, CPDA Motion Bank, PRA Machine, Blackout Redaction Engine (in beta testing)
+							<p class="text-sm text-white/80 sm:text-base">
+								<strong class="text-white">Existing Tools:</strong> RJA Tool, Discovery & Records Intelligence, CPDA Motion Bank, PRA Machine, Blackout Redaction Engine (in beta testing)
 							</p>
 						</div>
 						<div class="flex items-start">
-							<svg
-								class="mt-0.5 mr-2 h-5 w-5 text-[var(--cerulean-blue)]"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M5 13l4 4L19 7"
-								/>
+							<svg class="mt-0.5 mr-2 h-5 w-5 shrink-0 text-sky-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
 							</svg>
-							<p class="text-sm text-gray-700 sm:text-base">
-								<strong>New Tools:</strong> We build free and low-cost tools for organizations doing good work. Reach out with an idea or need and let's work together!
+							<p class="text-sm text-white/80 sm:text-base">
+								<strong class="text-white">New Tools:</strong> We build free and low-cost tools for organizations doing good work. Reach out with an idea or need and let's work together!
 							</p>
 						</div>
 					</div>
 
 					<div class="mt-auto">
-					<div class="flex justify-center sm:justify-start">
-						<a
-							href="mailto:info@techjusticelab.org?subject=Partnership Inquiry"
-							class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
-						>
-							<span class="relative z-10">Contact Us</span>
-							<span
-								class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
-							></span>
-						</a>
-					</div>
+						<div class="flex justify-center sm:justify-start">
+							<a
+								href="mailto:info@techjusticelab.org?subject=Partnership Inquiry"
+								class="group relative overflow-hidden rounded-md bg-white px-6 py-3 text-sm font-medium text-[var(--dark-blue)] transition-all duration-300 hover:shadow-lg"
+							>
+								<span class="relative z-10">Contact Us</span>
+								<span class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-black/5 transition-transform duration-500 group-hover:scale-x-100"></span>
+							</a>
+						</div>
 					</div>
 				</div>
 			{/if}
 		</div>
 
-		<!-- Additional call to action for other ways to get involved -->
+		<!-- Additional call to action -->
 		{#if sectionVisible['get-involved']}
 			<div in:fly={{ y: 30, duration: 1200, delay: 900 }} class="mt-10 text-center sm:mt-16">
-				<h3 class="mb-3 text-xl font-semibold text-[var(--cerulean-blue)] sm:mb-4 sm:text-2xl">
+				<div class="mx-auto h-px max-w-xs bg-white/20 mb-8"></div>
+				<h3 class="garamond mb-3 text-xl font-semibold text-white sm:mb-4 sm:text-2xl">
 					Other Ways to Support
 				</h3>
-				<p class="mx-auto mb-6 max-w-2xl text-sm text-gray-700 sm:text-base">
+				<p class="mx-auto mb-6 max-w-2xl text-sm text-white/70 sm:text-base">
 					Can't intern or partner? You can still support our work by spreading the word about our
 					tools and mission or by contributing to our projects.
 				</p>
 				<div class="flex flex-col justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
 					<a
 						href="#contact"
-						class="group relative overflow-hidden rounded-md bg-[var(--cerulean-blue)] px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:shadow-lg"
+						class="group relative overflow-hidden rounded-md bg-white px-6 py-3 text-sm font-medium text-[var(--dark-blue)] transition-all duration-300 hover:shadow-lg"
 					>
 						<span class="relative z-10">Contact Us</span>
-						<span
-							class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/20 transition-transform duration-500 group-hover:scale-x-100"
-						></span>
+						<span class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-black/5 transition-transform duration-500 group-hover:scale-x-100"></span>
 					</a>
 					<a
 						href="https://collect.crowded.me/collection/b268eb33-cbbe-414c-ba6a-52e44b208d38"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="group relative overflow-hidden rounded-md border-2 border-[var(--cerulean-blue)] bg-transparent px-6 py-2.5 text-sm font-medium text-[var(--cerulean-blue)] transition-all duration-300 hover:bg-[var(--cerulean-blue)]/10"
+						class="group relative overflow-hidden rounded-md border-2 border-white bg-transparent px-6 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:bg-white/10"
 					>
 						<span class="relative z-10">Donate</span>
-						<span
-							class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-[var(--cerulean-blue)]/10 transition-transform duration-500 group-hover:scale-x-100"
-						></span>
+						<span class="absolute inset-0 h-full w-full origin-left scale-x-0 transform bg-white/10 transition-transform duration-500 group-hover:scale-x-100"></span>
 					</a>
 				</div>
 			</div>
 		{/if}
 	</div>
 </section>
+
+<style>
+	.dot-grid {
+		background-image: radial-gradient(circle, rgba(255,255,255,0.3) 1px, transparent 1px);
+		background-size: 28px 28px;
+	}
+</style>

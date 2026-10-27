@@ -4,9 +4,11 @@
 	export let sectionVisible: { [key: string]: boolean } = {};
 </script>
 
-<section id="our-work" class="bg-gradient-to-b from-[var(--apple-white)] to-gray-50 py-20">
+<section id="our-work" class="bg-gradient-to-b from-gray-50 to-[var(--apple-white)] py-20">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<h2 class="garamond mb-16 text-center text-4xl font-bold text-[var(--dark-blue)]">Our Work</h2>
+		<p class="mb-3 text-center text-xs font-medium tracking-widest text-[var(--cerulean-blue)]/70 uppercase">What We Build</p>
+		<h2 class="garamond mb-4 text-center text-4xl font-bold text-[var(--dark-blue)]">Our Work</h2>
+		<div class="mx-auto mb-16 h-px w-16 bg-[var(--cerulean-blue)]/30"></div>
 
 		{#if sectionVisible['our-work']}
 			<!-- Projects Grid -->
